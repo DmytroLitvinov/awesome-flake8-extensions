@@ -49,3 +49,4 @@ Table of Contents
 - [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck)
 - [flake8-pyi](https://github.com/ambv/flake8-pyi)
 - [cohesion](https://github.com/mschwager/cohesion#flake8-support)
+- [flake8-aaa](https://github.com/jamescooke/flake8-aaa)
