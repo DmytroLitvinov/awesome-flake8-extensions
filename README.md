@@ -16,7 +16,7 @@ Table of Contents
     - [Documentations](#cocumentations)
     - [Enhancement for flake8](#enhancement-for-flake8)
     - [Copyrights](#copyrights)
-
+    
 - - -
 
 ## Clean code
@@ -66,7 +66,6 @@ Table of Contents
 *Extensions for security of your code.*
 
 - [flake8-bandit](https://github.com/tylerwince/flake8-bandit)
-<<<<<<< HEAD
 
 
 ## Documentations
@@ -93,24 +92,3 @@ Table of Contents
 
 - [flake8-copyright](https://github.com/savoirfairelinux/flake8-copyright) - Adds copyright checks to flake8
 - [flake8-ownership](https://github.com/decafjoe/flake8-ownership) - Checker for assuring that author, copyright, and license are specified in source files.
-=======
-- [flake8-type-annotations](https://github.com/sobolevn/flake8-type-annotations)
-- [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line)
-- [flake8-print](https://github.com/JBKahn/flake8-print)
-- [flake8-mypy](https://github.com/ambv/flake8-mypy)
-- [flake8-todo](https://github.com/schlamar/flake8-todo)
-- [flake8-putty](https://github.com/jayvdb/flake8-putty)
-- [flake8-mutable](https://github.com/ebeweber/flake8-mutable)
-- [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports)
-- [flake8-future-import](https://github.com/xZise/flake8-future-import)
-- [flake8-mock](https://github.com/aleGpereira/flake8-mock)
-- [flake8-strict](https://github.com/smarkets/flake8-strict)
-- [flake8-copyright](https://github.com/savoirfairelinux/flake8-copyright)
-- [flake8-ownership](https://github.com/decafjoe/flake8-ownership)
-- [flake8-django](https://github.com/rocioar/flake8-django)
-- [flake8-alfred](https://github.com/datatheorem/flake8-alfred)
-- [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck)
-- [flake8-pyi](https://github.com/ambv/flake8-pyi)
-- [cohesion](https://github.com/mschwager/cohesion#flake8-support)
-- [flake8-aaa](https://github.com/jamescooke/flake8-aaa)
->>>>>>> 814952a59c33c6215a1a0aee154c95ab31b7fe99
