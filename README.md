@@ -11,7 +11,7 @@ Table of Contents
     - [Clean code](#clean-code)
     - [Testing](#testing)
     - [Security](#security)
-    - [Documentations](#cocumentations)
+    - [Documentations](#documentations)
     - [Enhancement for flake8](#enhancement-for-flake8)
     - [Copyrights](#copyrights)
     
