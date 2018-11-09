@@ -2,8 +2,6 @@
 
 > A curated list of awesome flake8 extensions.
 
-There is proposal to categorize this list. The issue[#2](https://github.com/DmytroLitvinov/awesome-flake8-extensions/issues/2).
-
 Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-extensions/).
 
 Table of Contents
