@@ -33,7 +33,7 @@ Table of Contents
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - It helps you write better list/set/dict comprehensions.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings
 - [flake8-eradicate](https://github.com/sobolevn/flake8-eradicate) - Flake8 plugin to find commented out or dead code
-- [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Flake8 plugin to forbid backslashes (\) for line breaks
+- [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Flake8 plugin to forbid backslashes (`\`) for line breaks
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Check for Print statements in python files.
 - [flake8-todo](https://github.com/schlamar/flake8-todo) - Check for TODO notes.
 - [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Flake8 extension for mutable default arguments
