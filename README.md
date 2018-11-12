@@ -58,6 +58,7 @@ Table of Contents
 
 - [flake8-assertive](https://github.com/jparise/flake8-assertive) - Flake8 unittest assert method checker
 - [flake8-mock](https://github.com/aleGpereira/flake8-mock) - Provides checking mock non-existent methods
+- [fllake8-pytest](https://github.com/vikingco/flake8-pytest) - Enforces to use `pytest`-style assertions
 
 
 ## Security
