@@ -14,6 +14,7 @@ Table of Contents
     - [Documentations](#documentations)
     - [Enhancement for flake8](#enhancement-for-flake8)
     - [Copyrights](#copyrights)
+    - [Flake8 frameworks](#flake8-frameworks)
     
 - - -
 
@@ -92,3 +93,10 @@ Table of Contents
 
 - [flake8-copyright](https://github.com/savoirfairelinux/flake8-copyright) - Adds copyright checks to flake8
 - [flake8-ownership](https://github.com/decafjoe/flake8-ownership) - Checker for assuring that author, copyright, and license are specified in source files.
+
+
+## Flake8 frameworks
+
+*Frameworks for flake8 at your project*
+
+- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever
