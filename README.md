@@ -51,6 +51,7 @@ Table of Contents
 - [flake8-type-annotations](https://github.com/sobolevn/flake8-type-annotations) - Flake8 plugin to enforce consistent type annotation styles
 - [flake8-mypy](https://github.com/ambv/flake8-mypy) - A plugin for flake8 integrating Mypy.
 - [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions.
+- [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - flake8 plugin to validate annotations coverage
 
 
 ## Testing
