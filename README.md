@@ -49,7 +49,6 @@ Table of Contents
 - [flake8-coding](https://github.com/tk0miya/flake8-coding) - Adds coding magic comment checks (coding:) to flake8.
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Flake8 debug statement checker
 - [flake8-pyi](https://github.com/ambv/flake8-pyi) - A plugin for Flake8 that provides specializations for type hinting stub files.
-- [flake8-type-annotations](https://github.com/sobolevn/flake8-type-annotations) - Flake8 plugin to enforce consistent type annotation styles
 - [flake8-mypy](https://github.com/ambv/flake8-mypy) - A plugin for flake8 integrating Mypy.
 - [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions.
 - [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - flake8 extension that helps to make more readable variables names
@@ -58,6 +57,7 @@ Table of Contents
 
 *Extensions for type annotations at your project.*
 
+- [flake8-type-annotations](https://github.com/sobolevn/flake8-type-annotations) - Flake8 plugin to enforce consistent type annotation styles
 - [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - flake8 plugin to validate annotations coverage
 - [flake8-annotations-complexity](https://github.com/best-doctor/flake8-annotations-complexity) - flake8 plugin to validate annotations complexity
 
