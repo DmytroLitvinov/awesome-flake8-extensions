@@ -9,6 +9,7 @@ Table of Contents
 
 - [Awesome flake8 extensions](#awesome-flake8-extensions)
     - [Clean code](#clean-code)
+    - [Type annotations](#type-annotations)
     - [Testing](#testing)
     - [Security](#security)
     - [Documentations](#documentations)
