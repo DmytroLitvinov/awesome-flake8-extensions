@@ -59,7 +59,6 @@ Table of Contents
 *Extensions for type annotations at your project.*
 
 - [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - flake8 plugin to validate annotations coverage
-- [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - flake8 plugin to validate annotations coverage
 - [flake8-annotations-complexity](https://github.com/best-doctor/flake8-annotations-complexity) - flake8 plugin to validate annotations complexity
 
 
