@@ -109,3 +109,5 @@ Table of Contents
 *Frameworks for flake8 at your project*
 
 - [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever
+- [flake8-nitpick](https://github.com/andreoliwa/flake8-nitpick) - Flake8 plugin to enforce the same lint configuration (flake8, isort, mypy, pylint) across multiple Python projects
+
