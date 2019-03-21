@@ -37,6 +37,7 @@ Table of Contents
 - [flake8-eradicate](https://github.com/sobolevn/flake8-eradicate) - Flake8 plugin to find commented out or dead code
 - [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Flake8 plugin to forbid backslashes (`\`) for line breaks
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Check for Print statements in python files.
+- [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
 - [flake8-todo](https://github.com/schlamar/flake8-todo) - Check for TODO notes.
 - [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Flake8 extension for mutable default arguments
 - [cohesion](https://github.com/mschwager/cohesion#flake8-support) - Flake8 extension for measuring Python class cohesion.
