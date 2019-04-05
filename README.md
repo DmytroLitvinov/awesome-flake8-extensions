@@ -52,7 +52,7 @@ Table of Contents
 - [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - flake8 extension that helps to make more readable variables names
 - [flake8-black](https://github.com/peterjc/flake8-black) - flake8 plugin to run [black](https://pypi.org/project/black/) for checking Python coding style
 
-## Clean code
+## Imports
 
 *Extensions managing imports for your project.*
 
