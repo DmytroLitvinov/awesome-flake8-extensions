@@ -9,6 +9,7 @@ Table of Contents
 
 - [Awesome flake8 extensions](#awesome-flake8-extensions)
     - [Clean code](#clean-code)
+    - [Imports](#imports)
     - [Type annotations](#type-annotations)
     - [Testing](#testing)
     - [Security](#security)
@@ -25,8 +26,6 @@ Table of Contents
 
 - [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python
-- [flake8-import-order](https://github.com/PyCQA/flake8-import-order) - Include checks import order against various Python Style Guides
-- [flake8-isort](https://github.com/gforcada/flake8-isort) - Plugin that integrates [isort](https://pypi.org/project/isort/)
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python
 - [flake8-blind-except](https://github.com/elijahandrews/flake8-blind-except) - Include checks for blind, catch-all except statements 
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings
@@ -41,12 +40,10 @@ Table of Contents
 - [flake8-todo](https://github.com/schlamar/flake8-todo) - Check for TODO notes.
 - [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Flake8 extension for mutable default arguments
 - [cohesion](https://github.com/mschwager/cohesion#flake8-support) - Flake8 extension for measuring Python class cohesion.
-- [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Flake8 extension that helps you write tidier imports.
 - [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-django](https://github.com/rocioar/flake8-django) - Flake8 plugin for Django projects.
 - [flake8-alfred](https://github.com/datatheorem/flake8-alfred) - Alfred is a flake8 plugin to warn on unsafe/obsolete symbols.
-- [flake8-future-import](https://github.com/xZise/flake8-future-import) - Flake8 extension to check imports
 - [flake8-coding](https://github.com/tk0miya/flake8-coding) - Adds coding magic comment checks (coding:) to flake8.
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Flake8 debug statement checker
 - [flake8-pyi](https://github.com/ambv/flake8-pyi) - A plugin for Flake8 that provides specializations for type hinting stub files.
@@ -54,6 +51,15 @@ Table of Contents
 - [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions.
 - [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - flake8 extension that helps to make more readable variables names
 - [flake8-black](https://github.com/peterjc/flake8-black) - flake8 plugin to run [black](https://pypi.org/project/black/) for checking Python coding style
+
+## Imports
+
+*Extensions managing imports for your project.*
+
+- [flake8-import-order](https://github.com/PyCQA/flake8-import-order) - Include checks import order against various Python Style Guides
+- [flake8-isort](https://github.com/gforcada/flake8-isort) - Plugin that integrates [isort](https://pypi.org/project/isort/)
+- [flake8-future-import](https://github.com/xZise/flake8-future-import) - Flake8 extension to check imports
+- [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Flake8 extension that helps you write tidier imports.
 
 ## Type annotations
 
