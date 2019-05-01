@@ -27,7 +27,6 @@ Table of Contents
 - [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python
-- [flake8-blind-except](https://github.com/elijahandrews/flake8-blind-except) - Include checks for blind, catch-all except statements 
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings
 - [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Checks for old string formatting. 
 - [flake8-builtins](https://github.com/gforcada/flake8-builtins) - Check for python builtins being used as variables or parameters
