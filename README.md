@@ -50,6 +50,7 @@ Table of Contents
 - [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions.
 - [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - flake8 extension that helps to make more readable variables names
 - [flake8-black](https://github.com/peterjc/flake8-black) - flake8 plugin to run [black](https://pypi.org/project/black/) for checking Python coding style
+- [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8
 
 ## Imports
 
