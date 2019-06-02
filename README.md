@@ -58,6 +58,7 @@ Table of Contents
 *Extensions managing imports for your project.*
 
 - [flake8-import-order](https://github.com/PyCQA/flake8-import-order) - Include checks import order against various Python Style Guides
+- [flake8-import-order-spoqa](https://github.com/spoqa/flake8-import-order-spoqa) - Spoqa's import order style for flake8-import-order
 - [flake8-isort](https://github.com/gforcada/flake8-isort) - Plugin that integrates [isort](https://pypi.org/project/isort/)
 - [flake8-future-import](https://github.com/xZise/flake8-future-import) - Flake8 extension to check imports
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Flake8 extension that helps you write tidier imports.
