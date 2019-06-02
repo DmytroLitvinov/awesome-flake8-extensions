@@ -73,6 +73,7 @@ Table of Contents
 - [flake8-docstrings](https://gitlab.com/pycqa/flake8-docstrings) - Include checks provided by pep257
 - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings) - Validate Python docstrings as reStructuredText (RST)
 - [flake8-rst](https://github.com/kataev/flake8-rst) - Run flake8 checks on code in *.rst files or in docstrings
+- [flake8-markdown](https://github.com/johnfraney/flake8-markdown) - Lints Python code blocks in Markdown files using flake8
 
 
 ## Enhancement for flake8
