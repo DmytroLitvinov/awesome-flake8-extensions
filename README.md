@@ -52,6 +52,7 @@ Table of Contents
 - [flake8-black](https://github.com/peterjc/flake8-black) - flake8 plugin to run [black](https://pypi.org/project/black/) for checking Python coding style
 - [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8
 - [flake8-scrapy](https://github.com/stummjr/flake8-scrapy) - A Flake8 plugin to catch common issues on Scrapy spiders
+- [flake8-pie](https://github.com/sbdchd/flake8-pie) - A flake8 extension that implements misc. lints
 
 ## Imports
 
