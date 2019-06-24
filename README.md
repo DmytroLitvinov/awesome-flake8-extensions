@@ -53,7 +53,7 @@ Table of Contents
 - [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8
 - [flake8-scrapy](https://github.com/stummjr/flake8-scrapy) - A Flake8 plugin to catch common issues on Scrapy spiders
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - A flake8 extension that implements misc. lints
-- [flake8-executable](https://github.com/xuhdev/flake8-executable) - A Flake8 plugin that ensures the executable permission of Python files is correctly granted
+- [flake8-executable](https://github.com/xuhdev/flake8-executable) - A Flake8 plugin for checking executable permissions and shebangs
 
 ## Imports
 
