@@ -88,6 +88,7 @@ Table of Contents
 *Extensions for security of your code.*
 
 - [flake8-bandit](https://github.com/tylerwince/flake8-bandit)
+- [Dlint](https://github.com/duo-labs/dlint)
 
 
 ## Documentations
