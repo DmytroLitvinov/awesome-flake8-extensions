@@ -54,6 +54,7 @@ Table of Contents
 - [flake8-scrapy](https://github.com/stummjr/flake8-scrapy) - A Flake8 plugin to catch common issues on Scrapy spiders
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - A flake8 extension that implements misc. lints
 - [flake8-executable](https://github.com/xuhdev/flake8-executable) - A Flake8 plugin for checking executable permissions and shebangs
+- [pandas-vet](https://github.com/deppen8/pandas-vet) - A Flake8 plugin that provides opinionated linting for pandas code
 
 ## Imports
 
