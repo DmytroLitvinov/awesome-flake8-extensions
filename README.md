@@ -55,6 +55,7 @@ Table of Contents
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - A flake8 extension that implements misc. lints
 - [flake8-executable](https://github.com/xuhdev/flake8-executable) - A Flake8 plugin for checking executable permissions and shebangs
 - [pandas-vet](https://github.com/deppen8/pandas-vet) - A Flake8 plugin that provides opinionated linting for pandas code
+- [flake8-walrus](https://github.com/asottile/flake8-walrus) - flake8 plugin which forbids assignment expressions (the walrus operator)
 
 ## Imports
 
@@ -73,6 +74,7 @@ Table of Contents
 - [flake8-type-annotations](https://github.com/sobolevn/flake8-type-annotations) - Flake8 plugin to enforce consistent type annotation styles
 - [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - flake8 plugin to validate annotations coverage
 - [flake8-annotations-complexity](https://github.com/best-doctor/flake8-annotations-complexity) - flake8 plugin to validate annotations complexity
+- [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - flake8 plugin which checks that typing imports are properly guarded
 
 
 ## Testing
