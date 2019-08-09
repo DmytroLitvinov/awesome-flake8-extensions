@@ -110,6 +110,7 @@ Table of Contents
 - [flake8-polyfill](https://gitlab.com/pycqa/flake8-polyfill) - A tiny package that provides the poly fill for Flake8 plugins trying to support Flake8 2.x and Flake8 3.x
 - [flake8-per-file-ignores](https://github.com/snoack/flake8-per-file-ignores) - Ignore individual error codes per file with flake8
 - [flake8-putty](https://github.com/jayvdb/flake8-putty) - Flake8 plugin to control reporting per file and line
+- [flakehell](https://github.com/life4/flakehell) - Flake8 wrapper to make it nice, legacy-friendly, and configurable.
 
 
 ## Copyrights
