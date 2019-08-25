@@ -56,6 +56,7 @@ Table of Contents
 - [flake8-executable](https://github.com/xuhdev/flake8-executable) - A Flake8 plugin for checking executable permissions and shebangs
 - [pandas-vet](https://github.com/deppen8/pandas-vet) - A Flake8 plugin that provides opinionated linting for pandas code
 - [flake8-walrus](https://github.com/asottile/flake8-walrus) - flake8 plugin which forbids assignment expressions (the walrus operator)
+- [flake8-2020](https://github.com/asottile/flake8-2020) - flake8 plugin which checks for misuse of `sys.version` or `sys.version_info`
 
 ## Imports
 
