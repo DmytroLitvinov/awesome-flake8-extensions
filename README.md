@@ -85,6 +85,7 @@ Table of Contents
 - [flake8-assertive](https://github.com/jparise/flake8-assertive) - Flake8 unittest assert method checker
 - [flake8-mock](https://github.com/aleGpereira/flake8-mock) - Provides checking mock non-existent methods
 - [flake8-pytest](https://github.com/vikingco/flake8-pytest) - Enforces to use `pytest`-style assertions
+- [flake8-aaa](https://github.com/jamescooke/flake8-aaa) - Lints tests against the Arrange Act Assert pattern
 
 
 ## Security
