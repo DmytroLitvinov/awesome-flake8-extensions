@@ -76,6 +76,7 @@ Table of Contents
 - [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - flake8 plugin to validate annotations coverage
 - [flake8-annotations-complexity](https://github.com/best-doctor/flake8-annotations-complexity) - flake8 plugin to validate annotations complexity
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - flake8 plugin which checks that typing imports are properly guarded
+- [flake8-annotations](https://github.com/python-discord/flake8-annotations) - Plugin for flake8 to check for presence of type annotations in function definitions.
 
 
 ## Testing
