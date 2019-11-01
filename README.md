@@ -57,6 +57,9 @@ Table of Contents
 - [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8
 - [pandas-vet](https://github.com/deppen8/pandas-vet) - A Flake8 plugin that provides opinionated linting for pandas code
 - [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions
+- [flake8-cognitive-complexity](https://github.com/Melevir/flake8-cognitive-complexity) - An extension for flake8 that validates cognitive functions complexity
+- [flake8-functions](https://github.com/best-doctor/flake8-functions) - flake8 plugin for validation of function parameters (length, complexity, etc)
+- [flake8-expression-complexity](https://github.com/best-doctor/flake8-expression-complexity) - flake8 plugin to validate expressions complexity
 
 ## Copyrights
 
