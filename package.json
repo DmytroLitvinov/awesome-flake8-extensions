@@ -1,0 +1,22 @@
+{
+  "name": "awesome-flake8-extensions",
+  "version": "0.0.0",
+  "description": "Collection of awesome flake8 extensions.",
+  "main": "false",
+  "scripts": {
+    "test": "awesome-lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytroLitvinov/awesome-flake8-extensions.git"
+  },
+  "author": "me@dmytrolitvinov.com",
+  "license": "cc-by-4.0",
+  "bugs": {
+    "url": "https://github.com/DmytroLitvinov/awesome-flake8-extensions/issues"
+  },
+  "homepage": "https://github.com/DmytroLitvinov/awesome-flake8-extensions#readme",
+  "devDependencies": {
+    "awesome-lint": "*"
+  }
+}
