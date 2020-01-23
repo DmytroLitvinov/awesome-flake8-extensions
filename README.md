@@ -43,6 +43,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Check for `print` statements in python files.
 - [flake8-pyi](https://github.com/ambv/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
+- [flake8-pytest-style](https://github.com/m-burst/flake8-pytest-style) - Plugin checking common style issues or inconsistencies with `pytest`-based tests.
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
 - [flake8-scrapy](https://github.com/stummjr/flake8-scrapy) - Plugin to catch common issues on Scrapy spiders.
 - [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc.
