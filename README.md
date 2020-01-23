@@ -42,6 +42,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Checks for old string formatting. 
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Check for `print` statements in python files.
+- [flake8-printf-formatting](https://github.com/atugushev/flake8-printf-formatting) - Plugin which forbids printf-style string formatting.
 - [flake8-pyi](https://github.com/ambv/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
 - [flake8-pytest-style](https://github.com/m-burst/flake8-pytest-style) - Plugin checking common style issues or inconsistencies with `pytest`-based tests.
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
