@@ -110,7 +110,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 *Extensions for security of your code.*
 
-- [Dlint](https://github.com/duo-labs/dlint) - Tool for encouraging best coding practices and helping ensure we're writing secure Python code.
+- [Dlint](https://github.com/dlint-py/dlint) - Tool for encouraging best coding practices and helping ensure Python code is secure.
 - [flake8-bandit](https://github.com/tylerwince/flake8-bandit) - Automated security testing using bandit.
 
 ## Testing
