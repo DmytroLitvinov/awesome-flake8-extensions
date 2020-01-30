@@ -83,9 +83,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 *Extensions for flake8 plugin*
 
-- [flake8-per-file-ignores](https://github.com/snoack/flake8-per-file-ignores) - Ignore individual error codes per file with flake8.
 - [flake8-polyfill](https://gitlab.com/pycqa/flake8-polyfill) - A tiny package that provides the poly fill for Flake8 plugins trying to support Flake8 2.x and Flake8 3.x.
-- [flake8-putty](https://github.com/jayvdb/flake8-putty) - Plugin to control reporting per file and line.
 - [flakehell](https://github.com/life4/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
 
 ## Flake8 frameworks
@@ -129,7 +127,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-annotations-complexity](https://github.com/best-doctor/flake8-annotations-complexity) - Plugin to validate annotations complexity.
 - [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - Plugin to validate annotations coverage.
 - [flake8-annotations](https://github.com/python-discord/flake8-annotations) - Plugin for flake8 to check for presence of type annotations in function definitions.
-- [flake8-type-annotations](https://github.com/sobolevn/flake8-type-annotations) - Plugin to enforce consistent type annotation styles.
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - Plugin which checks that typing imports are properly guarded.
 
 
