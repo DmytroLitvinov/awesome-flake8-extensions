@@ -38,7 +38,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings.
 - [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Extension for mutable default arguments.
-- [flake8-mypy](https://github.com/ambv/flake8-mypy) - Plugin for flake8 integrating Mypy.
 - [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Checks for old string formatting. 
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Check for `print` statements in python files.
@@ -130,6 +129,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-annotations-complexity](https://github.com/best-doctor/flake8-annotations-complexity) - Plugin to validate annotations complexity.
 - [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - Plugin to validate annotations coverage.
 - [flake8-annotations](https://github.com/python-discord/flake8-annotations) - Plugin for flake8 to check for presence of type annotations in function definitions.
+- [flake8-mypy](https://github.com/ambv/flake8-mypy) - Plugin for flake8 integrating Mypy.
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - Plugin which checks that typing imports are properly guarded.
 
 
