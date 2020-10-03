@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-[![Build Status](https://travis-ci.org/DmytroLitvinov/awesome-flake8-extensions.svg?branch=master)](https://travis-ci.com/DmytroLitvinov/awesome-flake8-extensions.svg)
+[![Build Status](https://github.com/DmytroLitvinov/awesome-flake8-extensions/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/DmytroLitvinov/awesome-flake8-extensions/actions?query=workflow%3ACI)
 
 Ensure your pull request adheres to the following guidelines:
 
