@@ -87,8 +87,10 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 *Extensions for flake8 plugin*
 
 - [flake8-polyfill](https://gitlab.com/pycqa/flake8-polyfill) - A tiny package that provides the poly fill for Flake8 plugins trying to support Flake8 2.x and Flake8 3.x.
+- [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Plugin to generate an HTML dashboard with reporting the flake8 violations found.
 - [flakehell](https://github.com/life4/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
 - [flakehell-online](https://github.com/life4/flakehell-online) - Online client-side playground for FlakeHell ([flakehell.orsinium.dev](https://flakehell.orsinium.dev/)).
+
 
 ## Flake8 frameworks
 
