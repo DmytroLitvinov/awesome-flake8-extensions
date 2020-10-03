@@ -1,4 +1,4 @@
-# Awesome Flake8 Extensions [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![CI](https://github.com/DmytroLitvinov/awesome-flake8-extensions/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/DmytroLitvinov/awesome-flake8-extensions/actions?query=workflow%3ACI)
+# Awesome Flake8 Extensions [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 > A curated list of awesome flake8 extensions.
 
