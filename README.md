@@ -37,6 +37,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-executable](https://github.com/xuhdev/flake8-executable) - Plugin for checking executable permissions and shebangs.
 - [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings.
+- [flake8-match](https://github.com/asottile/flake8-match) - Plugin which forbids match statements (PEP 634).
 - [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Extension for mutable default arguments.
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
 - [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Checks for old string formatting.
