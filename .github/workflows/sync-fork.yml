@@ -23,7 +23,7 @@ jobs:
       id: sync
       uses: aormsby/Fork-Sync-With-Upstream-action@master
       with:
-        upstream_repository: augustogoulart/awesome-pytest
+        upstream_repository: DmytroLitvinov/awesome-flake8-extensions
         upstream_branch: master
         git_pull_args: --unshallow
         target_branch: master                       # optional
