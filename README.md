@@ -33,6 +33,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Debug statement checker.
 - [flake8-django](https://github.com/rocioar/flake8-django) - Plugin for Django projects.
+- [flake8-encodings](https://github.com/domdfcoding/flake8-encodings) - A Flake8 plugin to identify incorrect use of encodings.
 - [flake8-eradicate](https://github.com/sobolevn/flake8-eradicate) - Plugin to find commented out or dead code.
 - [flake8-executable](https://github.com/xuhdev/flake8-executable) - Plugin for checking executable permissions and shebangs.
 - [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
