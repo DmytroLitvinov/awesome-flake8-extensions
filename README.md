@@ -36,7 +36,9 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-eradicate](https://github.com/sobolevn/flake8-eradicate) - Plugin to find commented out or dead code.
 - [flake8-executable](https://github.com/xuhdev/flake8-executable) - Plugin for checking executable permissions and shebangs.
 - [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
+- [flake8-jira-todo-checker](https://github.com/simonstjg/flake8-jira-todo-checker) - Check that every TODO comment has a valid JIRA issue ID next to it.
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings.
+- [flake8-match](https://github.com/asottile/flake8-match) - Plugin which forbids match statements (PEP 634).
 - [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Extension for mutable default arguments.
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
 - [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Checks for old string formatting.
@@ -55,6 +57,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
 - [flake8-todo](https://github.com/schlamar/flake8-todo) - Check for TODO notes.
+- [flake8-todos](https://github.com/orsinium-labs/flake8-todos) - Lint TODO comments to be consistent and have an issue linked.
 - [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - Extension that helps to make more readable variables names.
 - [flake8-walrus](https://github.com/asottile/flake8-walrus) - Plugin which forbids assignment expressions (the walrus operator).
 - [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8.
@@ -109,6 +112,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-import-style](https://github.com/sfstpala/flake8-import-style) - Plugin to ensure explicit module imports.
 - [flake8-isort](https://github.com/gforcada/flake8-isort) - Plugin that integrates [isort](https://pypi.org/project/isort/).
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Extension that helps you write tidier imports.
+- [flake8-type-checking](https://github.com/sondrelg/flake8-type-checking) - Plugin for managing type-checking imports & forward references.
 - [flake8-absolute-import](https://github.com/bskinn/flake8-absolute-import) - Plugin to require absolute imports.
 
 ## Security
@@ -137,8 +141,4 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-annotations](https://github.com/sco1/flake8-annotations) - Plugin for flake8 to check for presence of type annotations in function definitions.
 - [flake8-no-types](https://github.com/adamchainz/flake8-no-types) - Plugin to ban type hints.
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - Plugin which checks that typing imports are properly guarded.
-
-
-## License
-
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [flake8-typing-only-imports](https://github.com/sondrelg/flake8-typing-only-imports) - flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved.
