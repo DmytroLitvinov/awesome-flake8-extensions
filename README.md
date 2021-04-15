@@ -94,7 +94,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Plugin to generate an HTML dashboard with reporting the flake8 violations found.
 - [flakehell](https://github.com/life4/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
 - [flakehell-online](https://github.com/life4/flakehell-online) - Online client-side playground for FlakeHell ([flakehell.orsinium.dev](https://flakehell.orsinium.dev/)).
-
+- [flake8-codes](https://github.com/orsinium-labs/flake8-codes) - CLI tool to introspect flake8 plugins and their codes.
 
 ## Flake8 frameworks
 
