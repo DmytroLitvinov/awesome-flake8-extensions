@@ -68,6 +68,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-functions](https://github.com/best-doctor/flake8-functions) - Plugin for validation of function parameters (length, complexity, etc).
 - [flake8-expression-complexity](https://github.com/best-doctor/flake8-expression-complexity) - Plugin to validate expressions complexity.
 - [flake8-use-fstring](https://github.com/MichaelKim0407/flake8-use-fstring) - Jump-start into modern Python by forcing yourself to use f-strings.
+- [flake8-length](https://github.com/orsinium-labs/flake8-length) - Smart line length validation.
 
 ## Copyrights
 
@@ -94,7 +95,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Plugin to generate an HTML dashboard with reporting the flake8 violations found.
 - [flakehell](https://github.com/life4/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
 - [flakehell-online](https://github.com/life4/flakehell-online) - Online client-side playground for FlakeHell ([flakehell.orsinium.dev](https://flakehell.orsinium.dev/)).
-
+- [flake8-codes](https://github.com/orsinium-labs/flake8-codes) - CLI tool to introspect flake8 plugins and their codes.
 
 ## Flake8 frameworks
 
