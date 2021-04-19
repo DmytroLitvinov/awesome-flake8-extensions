@@ -131,7 +131,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-mock](https://github.com/aleGpereira/flake8-mock) - Provides checking mock non-existent methods.
 - [flake8-pytest](https://github.com/vikingco/flake8-pytest) - Enforces to use `pytest`-style assertions.
 - [flake8-pytestrail](https://github.com/and-semakin/flake8-pytestrail) - Checks TestRail test case IDs.
-- [flake8-test-name](https://github.com/bagerard/flake8-test-name) - Checks that test functions names follow a given convention 
+- [flake8-test-name](https://github.com/bagerard/flake8-test-name) - Checks that test functions names follow a given convention.
 
 ## Type annotations
 
