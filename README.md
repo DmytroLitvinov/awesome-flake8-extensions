@@ -15,6 +15,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [Security](#security)
 - [Testing](#testing)
 - [Type annotations](#type-annotations)
+- [Tools](#tools)
 
 
 ## Clean code
@@ -145,3 +146,9 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-no-types](https://github.com/adamchainz/flake8-no-types) - Plugin to ban type hints.
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - Plugin which checks that typing imports are properly guarded.
 - [flake8-typing-only-imports](https://github.com/sondrelg/flake8-typing-only-imports) - flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved.
+
+## Tools
+
+*Tools to comlplement flake8*
+
+- [yesqa](https://github.com/asottile/yesqa) - A tool (and pre-commit hook) to automatically remove unnecessary `# noqa` comments, for example: a check that's no longer applicable (say you increased your max line length), a mistake (`# noqa` added to a line that wasn't failing), or other code in the file caused it to no longer need a `# noqa` (such as an unused import).
