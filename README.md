@@ -36,6 +36,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-django](https://github.com/rocioar/flake8-django) - Plugin for Django projects.
 - [flake8-eradicate](https://github.com/sobolevn/flake8-eradicate) - Plugin to find commented out or dead code.
 - [flake8-executable](https://github.com/xuhdev/flake8-executable) - Plugin for checking executable permissions and shebangs.
+- [flake8-fastapi](https://github.com/Kludex/flake8-fastapi) - Checks FastAPI code against opinionated style rules.
 - [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
 - [flake8-functions-names](https://github.com/Melevir/flake8-functions-names) - Validate functions names, decomposition and conformity with annotations.
 - [flake8-jira-todo-checker](https://github.com/simonstjg/flake8-jira-todo-checker) - Check that every TODO comment has a valid JIRA issue ID next to it.
