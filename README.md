@@ -151,4 +151,4 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-future-annotations](https://github.com/tyleryep/flake8-future-annotations) - Verifies Python 3.7+ files use `from __future__ import annotations`.
 - [flake8-no-types](https://github.com/adamchainz/flake8-no-types) - Plugin to ban type hints.
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - Plugin which checks that typing imports are properly guarded.
-- [flake8-typing-only-imports](https://github.com/sondrelg/flake8-typing-only-imports) - flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved.
+- [flake8-type-checking](https://github.com/snok/flake8-type-checking) - flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved.
