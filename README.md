@@ -72,6 +72,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Plugin to ban PEP-420 implicit namespace packages.
 - [flake8-expression-complexity](https://github.com/best-doctor/flake8-expression-complexity) - Plugin to validate expressions complexity.
 - [flake8-use-fstring](https://github.com/MichaelKim0407/flake8-use-fstring) - Jump-start into modern Python by forcing yourself to use f-strings.
+- [flake8-use-pathlib](https://gitlab.com/RoPP/flake8-use-pathlib) - Find functions that can be replaced by pathlib module.
 - [flake8-length](https://github.com/orsinium-labs/flake8-length) - Smart line length validation.
 
 ## Copyrights
