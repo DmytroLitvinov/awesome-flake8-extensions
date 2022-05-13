@@ -16,7 +16,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [Testing](#testing)
 - [Type annotations](#type-annotations)
 
-
 ## Clean code
 
 *Extensions for clean code at your project.*
@@ -31,6 +30,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-builtins](https://github.com/gforcada/flake8-builtins) - Check for python builtins being used as variables or parameters.
 - [flake8-coding](https://github.com/tk0miya/flake8-coding) - Adds coding magic comment checks (coding:) to flake8.
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
+- [flake8-comments](https://github.com/orsinium-labs/flake8-comments) - Reports redundant comments.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Debug statement checker.
 - [flake8-django](https://github.com/rocioar/flake8-django) - Plugin for Django projects.
@@ -78,7 +78,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 ## Copyrights
 
-*Extensions for copyright at your project*
+*Extensions for copyright at your project.*
 
 - [flake8-copyright](https://github.com/savoirfairelinux/flake8-copyright) - Adds copyright checks to flake8.
 - [flake8-ownership](https://github.com/decafjoe/flake8-ownership) - Checker for assuring that author, copyright, and license are specified in source files.
@@ -95,7 +95,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 ## Enhancement for flake8
 
-*Extensions for flake8 plugin*
+*Extensions for flake8 plugin.*
 
 - [flake8-polyfill](https://gitlab.com/pycqa/flake8-polyfill) - A tiny package that provides the poly fill for Flake8 plugins trying to support Flake8 2.x and Flake8 3.x.
 - [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Plugin to generate an HTML dashboard with reporting the flake8 violations found.
@@ -105,7 +105,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 ## Flake8 frameworks
 
-*Frameworks for flake8 at your project*
+*Frameworks for flake8 at your project.*
 
 - [nitpick](https://github.com/andreoliwa/nitpick) - Enforce the same lint configuration (flake8, isort, mypy, pylint) across multiple Python projects.
 - [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
