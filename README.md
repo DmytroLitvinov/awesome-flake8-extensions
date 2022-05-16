@@ -7,8 +7,8 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 ## Contents
 
 - [Clean code](#clean-code)
-- [Copyrights](#copyrights)
-- [Documentations](#documentations)
+- [Comments](#comments)
+- [Docstrings](#docstrings)
 - [Enhancement for flake8](#enhancement-for-flake8)
 - [Flake8 frameworks](#flake8-frameworks)
 - [Imports](#imports)
@@ -29,20 +29,14 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Plugin to forbid backslashes (`\`) for line breaks.
 - [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program.
 - [flake8-builtins](https://github.com/gforcada/flake8-builtins) - Check for python builtins being used as variables or parameters.
-- [flake8-coding](https://github.com/tk0miya/flake8-coding) - Adds coding magic comment checks (coding:) to flake8.
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
-- [flake8-comments](https://github.com/orsinium-labs/flake8-comments) - Reports redundant comments.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Debug statement checker.
-- [flake8-eradicate](https://github.com/sobolevn/flake8-eradicate) - Plugin to find commented out or dead code.
 - [flake8-executable](https://github.com/xuhdev/flake8-executable) - Plugin for checking executable permissions and shebangs.
-- [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
 - [flake8-functions-names](https://github.com/Melevir/flake8-functions-names) - Validate functions names, decomposition and conformity with annotations.
-- [flake8-jira-todo-checker](https://github.com/simonstjg/flake8-jira-todo-checker) - Check that every TODO comment has a valid JIRA issue ID next to it.
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings.
 - [flake8-match](https://github.com/asottile/flake8-match) - Plugin which forbids match statements (PEP 634).
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
-- [flake8-noqa](https://github.com/plinss/flake8-noqa) - Validate `# noqa` comments.
 - [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Checks for old string formatting.
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Check for `print` statements in python files.
@@ -53,11 +47,8 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
 - [flake8-simplify](https://github.com/MartinThoma/flake8-simplify) - Plugin that helps you to simplify code.
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
-- [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
-- [flake8-todo](https://github.com/schlamar/flake8-todo) - Check for TODO notes.
-- [flake8-todos](https://github.com/orsinium-labs/flake8-todos) - Lint TODO comments to be consistent and have an issue linked.
 - [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - Extension that helps to make more readable variables names.
 - [flake8-walrus](https://github.com/asottile/flake8-walrus) - Plugin which forbids assignment expressions (the walrus operator).
 - [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions.
@@ -72,20 +63,29 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-length](https://github.com/orsinium-labs/flake8-length) - Smart line length validation.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
 
-## Copyrights
+## Comments
 
-*Extensions for copyright at your project.*
+*Extensions for checking comments at your project.*
 
+- [flake8-coding](https://github.com/tk0miya/flake8-coding) - Adds coding magic comment checks (coding:) to flake8.
+- [flake8-comments](https://github.com/orsinium-labs/flake8-comments) - Reports redundant comments.
 - [flake8-copyright](https://github.com/savoirfairelinux/flake8-copyright) - Adds copyright checks to flake8.
+- [flake8-eradicate](https://github.com/sobolevn/flake8-eradicate) - Plugin to find commented out or dead code.
+- [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
+- [flake8-jira-todo-checker](https://github.com/simonstjg/flake8-jira-todo-checker) - Check that every TODO comment has a valid JIRA issue ID next to it.
+- [flake8-noqa](https://github.com/plinss/flake8-noqa) - Validate `# noqa` comments.
 - [flake8-ownership](https://github.com/decafjoe/flake8-ownership) - Checker for assuring that author, copyright, and license are specified in source files.
+- [flake8-todo](https://github.com/schlamar/flake8-todo) - Check for TODO notes.
+- [flake8-todos](https://github.com/orsinium-labs/flake8-todos) - Lint TODO comments to be consistent and have an issue linked.
 
-## Documentations
+## Docstrings
 
-*Extensions for documentations at your project.*
+*Extensions for checking docstrings at your project.*
 
 - [darglint](https://github.com/terrencepreilly/darglint) - Check that the docstring description matches the definition.
 - [flake8-docstrings](https://github.com/pycqa/flake8-docstrings) - Include checks provided by pep257.
 - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings) - Validate Python docstrings as reStructuredText (RST).
+- [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc.
 
 ## Enhancement for flake8
 
