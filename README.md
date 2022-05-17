@@ -7,6 +7,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 ## Contents
 
 - [Clean code](#clean-code)
+- [Limitations](#limitations)
 - [Naming](#naming)
 - [Complexity](#complexity)
 - [Comments](#comments)
@@ -27,18 +28,11 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-2020](https://github.com/asottile/flake8-2020) - Plugin which checks for misuse of `sys.version` or `sys.version_info`.
 - [flake8-alfred](https://github.com/datatheorem/flake8-alfred) - Alfred is a flake8 plugin to warn on unsafe/obsolete symbols.
 - [flake8-black](https://github.com/peterjc/flake8-black) - Plugin to run [black](https://pypi.org/project/black/) for checking Python coding style.
-- [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Plugin to forbid backslashes (`\`) for line breaks.
 - [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program.
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
-- [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Debug statement checker.
-- [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings.
-- [flake8-match](https://github.com/asottile/flake8-match) - Plugin which forbids match statements (PEP 634).
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
-- [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Checks for old string formatting.
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
-- [flake8-print](https://github.com/JBKahn/flake8-print) - Check for `print` statements in python files.
-- [flake8-printf-formatting](https://github.com/atugushev/flake8-printf-formatting) - Plugin which forbids printf-style string formatting.
 - [flake8-return](https://github.com/afonasev/flake8-return) - Plugin that checks return values.
 - [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
@@ -46,13 +40,25 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
-- [flake8-walrus](https://github.com/asottile/flake8-walrus) - Plugin which forbids assignment expressions (the walrus operator).
 - [flake8-implicit-str-concat](https://github.com/keisheiled/flake8-implicit-str-concat) - Plugin to encourage correct string literal concatenation.
-- [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Plugin that Forbids Implicit String Literal Concatenations.
-- [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Plugin to ban PEP-420 implicit namespace packages.
-- [flake8-use-fstring](https://github.com/MichaelKim0407/flake8-use-fstring) - Jump-start into modern Python by forcing yourself to use f-strings.
-- [flake8-use-pathlib](https://gitlab.com/RoPP/flake8-use-pathlib) - Find functions that can be replaced by pathlib module.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
+
+## Limitations
+
+*Extensions for banning specific Python features at your project.*
+
+- [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Report line break with backslash (`\`).
+- [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Report debug statements (`pdb`, `ipdb`).
+- [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Report string formatting inside logging.
+- [flake8-match](https://github.com/asottile/flake8-match) - Report `match` statement.
+- [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Report implicit string concatenation.
+- [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Report implicit namespace packages.
+- [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Report `%`-formatting.
+- [flake8-print](https://github.com/JBKahn/flake8-print) - Report `print` statement.
+- [flake8-printf-formatting](https://github.com/atugushev/flake8-printf-formatting) - Report `%`-formatting.
+- [flake8-use-fstring](https://github.com/MichaelKim0407/flake8-use-fstring) - Report `%`-formatting and `str.format`.
+- [flake8-use-pathlib](https://gitlab.com/RoPP/flake8-use-pathlib) - Report `os.path`.
+- [flake8-walrus](https://github.com/asottile/flake8-walrus) - Report walrus operator (`:=`).
 
 ## Naming
 
