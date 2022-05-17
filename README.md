@@ -7,6 +7,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 ## Contents
 
 - [Clean code](#clean-code)
+- [Complexity](#complexity)
 - [Comments](#comments)
 - [Docstrings](#docstrings)
 - [Enhancement for flake8](#enhancement-for-flake8)
@@ -22,7 +23,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 *Extensions for clean code at your project.*
 
-- [cohesion](https://github.com/mschwager/cohesion#flake8-support) - Extension for measuring Python class cohesion.
 - [flake8-2020](https://github.com/asottile/flake8-2020) - Plugin which checks for misuse of `sys.version` or `sys.version_info`.
 - [flake8-alfred](https://github.com/datatheorem/flake8-alfred) - Alfred is a flake8 plugin to warn on unsafe/obsolete symbols.
 - [flake8-black](https://github.com/peterjc/flake8-black) - Plugin to run [black](https://pypi.org/project/black/) for checking Python coding style.
@@ -32,7 +32,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Debug statement checker.
-- [flake8-executable](https://github.com/xuhdev/flake8-executable) - Plugin for checking executable permissions and shebangs.
 - [flake8-functions-names](https://github.com/Melevir/flake8-functions-names) - Validate functions names, decomposition and conformity with annotations.
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings.
 - [flake8-match](https://github.com/asottile/flake8-match) - Plugin which forbids match statements (PEP 634).
@@ -41,7 +40,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Check for `print` statements in python files.
 - [flake8-printf-formatting](https://github.com/atugushev/flake8-printf-formatting) - Plugin which forbids printf-style string formatting.
-- [flake8-pyi](https://github.com/ambv/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
 - [flake8-return](https://github.com/afonasev/flake8-return) - Plugin that checks return values.
 - [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
@@ -52,16 +50,23 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - Extension that helps to make more readable variables names.
 - [flake8-walrus](https://github.com/asottile/flake8-walrus) - Plugin which forbids assignment expressions (the walrus operator).
 - [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions.
-- [flake8-cognitive-complexity](https://github.com/Melevir/flake8-cognitive-complexity) - Extension for flake8 that validates cognitive functions complexity.
-- [flake8-functions](https://github.com/best-doctor/flake8-functions) - Plugin for validation of function parameters (length, complexity, etc).
 - [flake8-implicit-str-concat](https://github.com/keisheiled/flake8-implicit-str-concat) - Plugin to encourage correct string literal concatenation.
 - [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Plugin that Forbids Implicit String Literal Concatenations.
 - [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Plugin to ban PEP-420 implicit namespace packages.
-- [flake8-expression-complexity](https://github.com/best-doctor/flake8-expression-complexity) - Plugin to validate expressions complexity.
 - [flake8-use-fstring](https://github.com/MichaelKim0407/flake8-use-fstring) - Jump-start into modern Python by forcing yourself to use f-strings.
 - [flake8-use-pathlib](https://gitlab.com/RoPP/flake8-use-pathlib) - Find functions that can be replaced by pathlib module.
-- [flake8-length](https://github.com/orsinium-labs/flake8-length) - Smart line length validation.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
+
+## Complexity
+
+*Extensions for checking complexity of your project.*
+
+- [cohesion](https://github.com/mschwager/cohesion#flake8-support) - Extension for measuring Python class cohesion.
+- [flake8-annotations-complexity](https://github.com/best-doctor/flake8-annotations-complexity) - Plugin to validate annotations complexity.
+- [flake8-cognitive-complexity](https://github.com/Melevir/flake8-cognitive-complexity) - Extension for flake8 that validates cognitive functions complexity.
+- [flake8-expression-complexity](https://github.com/best-doctor/flake8-expression-complexity) - Plugin to validate expressions complexity.
+- [flake8-functions](https://github.com/best-doctor/flake8-functions) - Plugin for validation of function parameters (length, complexity, etc).
+- [flake8-length](https://github.com/orsinium-labs/flake8-length) - Smart line length validation.
 
 ## Comments
 
@@ -71,6 +76,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-comments](https://github.com/orsinium-labs/flake8-comments) - Reports redundant comments.
 - [flake8-copyright](https://github.com/savoirfairelinux/flake8-copyright) - Adds copyright checks to flake8.
 - [flake8-eradicate](https://github.com/sobolevn/flake8-eradicate) - Plugin to find commented out or dead code.
+- [flake8-executable](https://github.com/xuhdev/flake8-executable) - Plugin for checking executable permissions and shebangs.
 - [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
 - [flake8-jira-todo-checker](https://github.com/simonstjg/flake8-jira-todo-checker) - Check that every TODO comment has a valid JIRA issue ID next to it.
 - [flake8-noqa](https://github.com/plinss/flake8-noqa) - Validate `# noqa` comments.
@@ -141,7 +147,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 *Extensions for type annotations at your project.*
 
-- [flake8-annotations-complexity](https://github.com/best-doctor/flake8-annotations-complexity) - Plugin to validate annotations complexity.
 - [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - Plugin to validate annotations coverage.
 - [flake8-annotations](https://github.com/sco1/flake8-annotations) - Plugin for flake8 to check for presence of type annotations in function definitions.
 - [flake8-future-annotations](https://github.com/tyleryep/flake8-future-annotations) - Verifies Python 3.7+ files use `from __future__ import annotations`.
@@ -164,5 +169,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 *Extensions for running flake8 not only on Python files.*
 
 - [flake8-markdown](https://github.com/johnfraney/flake8-markdown) - Lints Python code blocks in Markdown files using flake8.
+- [flake8-pyi](https://github.com/ambv/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
 - [flake8-rst](https://github.com/kataev/flake8-rst) - Checks on code in *.rst files or in docstrings.
 - [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8.
