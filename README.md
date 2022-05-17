@@ -47,18 +47,18 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 *Extensions for banning specific Python features at your project.*
 
-- [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Plugin to forbid backslashes (`\`) for line breaks.
-- [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Debug statement checker.
-- [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings.
-- [flake8-match](https://github.com/asottile/flake8-match) - Plugin which forbids match statements (PEP 634).
-- [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Plugin that Forbids Implicit String Literal Concatenations.
-- [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Plugin to ban PEP-420 implicit namespace packages.
-- [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Checks for old string formatting.
-- [flake8-print](https://github.com/JBKahn/flake8-print) - Check for `print` statements in python files.
-- [flake8-printf-formatting](https://github.com/atugushev/flake8-printf-formatting) - Plugin which forbids printf-style string formatting.
-- [flake8-use-fstring](https://github.com/MichaelKim0407/flake8-use-fstring) - Jump-start into modern Python by forcing yourself to use f-strings.
-- [flake8-use-pathlib](https://gitlab.com/RoPP/flake8-use-pathlib) - Find functions that can be replaced by pathlib module.
-- [flake8-walrus](https://github.com/asottile/flake8-walrus) - Plugin which forbids assignment expressions (the walrus operator).
+- [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Report line break with backslash (`\`).
+- [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Report debug statements (`pdb`, `ipdb`).
+- [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Report string formatting inside logging.
+- [flake8-match](https://github.com/asottile/flake8-match) - Report `match` statement.
+- [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Report implicit string concatenation.
+- [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Report implicit namespace packages.
+- [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Report `%`-formatting.
+- [flake8-print](https://github.com/JBKahn/flake8-print) - Report `print` statement.
+- [flake8-printf-formatting](https://github.com/atugushev/flake8-printf-formatting) - Report `%`-formatting.
+- [flake8-use-fstring](https://github.com/MichaelKim0407/flake8-use-fstring) - Report `%`-formatting and `str.format`.
+- [flake8-use-pathlib](https://gitlab.com/RoPP/flake8-use-pathlib) - Report `os.path`.
+- [flake8-walrus](https://github.com/asottile/flake8-walrus) - Report walrus operator (`:=`).
 
 ## Naming
 
