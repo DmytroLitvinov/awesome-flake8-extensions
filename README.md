@@ -153,6 +153,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-no-types](https://github.com/adamchainz/flake8-no-types) - Plugin to ban type hints.
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - Plugin which checks that typing imports are properly guarded.
 - [flake8-type-checking](https://github.com/snok/flake8-type-checking) - flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved.
+- [flake8-new-union-types](https://github.com/xome4ok/flake8-new-union-types) - Plugin to enforce new Union/Optional syntax `Foo | Bar | None` defined in PEP406.
 
 ## Library-specific checks
 
