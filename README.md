@@ -7,6 +7,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 ## Contents
 
 - [Clean code](#clean-code)
+- [Naming](#naming)
 - [Complexity](#complexity)
 - [Comments](#comments)
 - [Docstrings](#docstrings)
@@ -28,11 +29,9 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-black](https://github.com/peterjc/flake8-black) - Plugin to run [black](https://pypi.org/project/black/) for checking Python coding style.
 - [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Plugin to forbid backslashes (`\`) for line breaks.
 - [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program.
-- [flake8-builtins](https://github.com/gforcada/flake8-builtins) - Check for python builtins being used as variables or parameters.
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Debug statement checker.
-- [flake8-functions-names](https://github.com/Melevir/flake8-functions-names) - Validate functions names, decomposition and conformity with annotations.
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Validate (lack of) logging format strings.
 - [flake8-match](https://github.com/asottile/flake8-match) - Plugin which forbids match statements (PEP 634).
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
@@ -47,15 +46,23 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
-- [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - Extension that helps to make more readable variables names.
 - [flake8-walrus](https://github.com/asottile/flake8-walrus) - Plugin which forbids assignment expressions (the walrus operator).
-- [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions.
 - [flake8-implicit-str-concat](https://github.com/keisheiled/flake8-implicit-str-concat) - Plugin to encourage correct string literal concatenation.
 - [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Plugin that Forbids Implicit String Literal Concatenations.
 - [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Plugin to ban PEP-420 implicit namespace packages.
 - [flake8-use-fstring](https://github.com/MichaelKim0407/flake8-use-fstring) - Jump-start into modern Python by forcing yourself to use f-strings.
 - [flake8-use-pathlib](https://gitlab.com/RoPP/flake8-use-pathlib) - Find functions that can be replaced by pathlib module.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
+
+## Naming
+
+*Extensions for checking naming at your project.*
+
+- [flake8-builtins](https://github.com/gforcada/flake8-builtins) - Check for python builtins being used as variables or parameters.
+- [flake8-functions-names](https://github.com/Melevir/flake8-functions-names) - Validate functions names, decomposition and conformity with annotations.
+- [flake8-test-name](https://github.com/bagerard/flake8-test-name) - Checks that test functions names follow a given convention.
+- [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - Extension that helps to make more readable variables names.
+- [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions.
 
 ## Complexity
 
@@ -141,7 +148,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-mock](https://github.com/aleGpereira/flake8-mock) - Provides checking mock non-existent methods.
 - [flake8-pytest](https://github.com/vikingco/flake8-pytest) - Enforces to use `pytest`-style assertions.
 - [flake8-pytestrail](https://github.com/and-semakin/flake8-pytestrail) - Checks TestRail test case IDs.
-- [flake8-test-name](https://github.com/bagerard/flake8-test-name) - Checks that test functions names follow a given convention.
 
 ## Type annotations
 
