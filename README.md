@@ -6,6 +6,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 ## Contents
 
+- [All-in-one](#all-in-one)
 - [Clean code](#clean-code)
 - [Limitations](#limitations)
 - [Naming](#naming)
@@ -21,6 +22,16 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [Library-specific checks](#library-specific-checks)
 - [Integrations](#integrations)
 
+## All-in-one
+
+*Extensions for finding multiple issues at your project.*
+
+- [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program.
+- [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
+- [flake8-simplify](https://github.com/MartinThoma/flake8-simplify) - Plugin that helps you to simplify code.
+- [hacking](https://github.com/openstack/hacking) - Set of flake8 plugins that test and enforce the [OpenStack StyleGuide](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide).
+- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
+
 ## Clean code
 
 *Extensions for clean code at your project.*
@@ -28,15 +39,12 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-2020](https://github.com/asottile/flake8-2020) - Plugin which checks for misuse of `sys.version` or `sys.version_info`.
 - [flake8-alfred](https://github.com/datatheorem/flake8-alfred) - Alfred is a flake8 plugin to warn on unsafe/obsolete symbols.
 - [flake8-black](https://github.com/peterjc/flake8-black) - Plugin to run [black](https://pypi.org/project/black/) for checking Python coding style.
-- [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program.
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
-- [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
 - [flake8-return](https://github.com/afonasev/flake8-return) - Plugin that checks return values.
 - [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
-- [flake8-simplify](https://github.com/MartinThoma/flake8-simplify) - Plugin that helps you to simplify code.
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
@@ -115,14 +123,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flakehell](https://github.com/flakehell/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
 - [flake8-codes](https://github.com/orsinium-labs/flake8-codes) - CLI tool to introspect flake8 plugins and their codes.
 - [flake8-ruler](https://github.com/orsinium-labs/flake8-ruler) - More powerful configs for flake8.
-
-## Flake8 frameworks
-
-*Frameworks for flake8 at your project.*
-
 - [nitpick](https://github.com/andreoliwa/nitpick) - Enforce the same lint configuration (flake8, isort, mypy, pylint) across multiple Python projects.
-- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
-- [hacking](https://github.com/openstack/hacking) - Set of flake8 plugins that test and enforce the [OpenStack StyleGuide](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide).
 
 ## Imports
 
