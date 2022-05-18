@@ -6,20 +6,31 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 ## Contents
 
+- [All-in-one](#all-in-one)
 - [Clean code](#clean-code)
 - [Limitations](#limitations)
 - [Naming](#naming)
 - [Complexity](#complexity)
 - [Comments](#comments)
 - [Docstrings](#docstrings)
-- [Enhancement for flake8](#enhancement-for-flake8)
-- [Flake8 frameworks](#flake8-frameworks)
+- [Tools](#tools)
 - [Imports](#imports)
-- [Security](#security)
 - [Testing](#testing)
 - [Type annotations](#type-annotations)
 - [Library-specific checks](#library-specific-checks)
 - [Integrations](#integrations)
+- [Wrappers](#wrappers)
+
+## All-in-one
+
+*Extensions for finding multiple issues at your project.*
+
+- [dlint](https://github.com/dlint-py/dlint) - Tool for encouraging best coding practices and helping ensure Python code is secure.
+- [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program.
+- [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
+- [flake8-simplify](https://github.com/MartinThoma/flake8-simplify) - Plugin that helps you to simplify code.
+- [hacking](https://github.com/openstack/hacking) - Set of flake8 plugins that test and enforce the [OpenStack StyleGuide](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide).
+- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
 
 ## Clean code
 
@@ -27,16 +38,12 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 - [flake8-2020](https://github.com/asottile/flake8-2020) - Plugin which checks for misuse of `sys.version` or `sys.version_info`.
 - [flake8-alfred](https://github.com/datatheorem/flake8-alfred) - Alfred is a flake8 plugin to warn on unsafe/obsolete symbols.
-- [flake8-black](https://github.com/peterjc/flake8-black) - Plugin to run [black](https://pypi.org/project/black/) for checking Python coding style.
-- [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program.
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
-- [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
 - [flake8-return](https://github.com/afonasev/flake8-return) - Plugin that checks return values.
 - [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
-- [flake8-simplify](https://github.com/MartinThoma/flake8-simplify) - Plugin that helps you to simplify code.
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
@@ -106,23 +113,15 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings) - Validate Python docstrings as reStructuredText (RST).
 - [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc.
 
-## Enhancement for flake8
+## Tools
 
-*Extensions for flake8 plugin.*
+*Tools empowering flake8.*
 
-- [flake8-polyfill](https://gitlab.com/pycqa/flake8-polyfill) - A tiny package that provides the poly fill for Flake8 plugins trying to support Flake8 2.x and Flake8 3.x.
 - [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Plugin to generate an HTML dashboard with reporting the flake8 violations found.
 - [flakehell](https://github.com/flakehell/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
 - [flake8-codes](https://github.com/orsinium-labs/flake8-codes) - CLI tool to introspect flake8 plugins and their codes.
 - [flake8-ruler](https://github.com/orsinium-labs/flake8-ruler) - More powerful configs for flake8.
-
-## Flake8 frameworks
-
-*Frameworks for flake8 at your project.*
-
 - [nitpick](https://github.com/andreoliwa/nitpick) - Enforce the same lint configuration (flake8, isort, mypy, pylint) across multiple Python projects.
-- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
-- [hacking](https://github.com/openstack/hacking) - Set of flake8 plugins that test and enforce the [OpenStack StyleGuide](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide).
 
 ## Imports
 
@@ -133,17 +132,9 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-import-order-spoqa](https://github.com/spoqa/flake8-import-order-spoqa) - Spoqa's import order style for flake8-import-order.
 - [flake8-import-order](https://github.com/PyCQA/flake8-import-order) - Include checks import order against various Python Style Guides.
 - [flake8-import-style](https://github.com/sfstpala/flake8-import-style) - Plugin to ensure explicit module imports.
-- [flake8-isort](https://github.com/gforcada/flake8-isort) - Plugin that integrates [isort](https://pypi.org/project/isort/).
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Extension that helps you write tidier imports.
 - [flake8-type-checking](https://github.com/sondrelg/flake8-type-checking) - Plugin for managing type-checking imports & forward references.
 - [flake8-absolute-import](https://github.com/bskinn/flake8-absolute-import) - Plugin to require absolute imports.
-
-## Security
-
-*Extensions for security of your code.*
-
-- [Dlint](https://github.com/dlint-py/dlint) - Tool for encouraging best coding practices and helping ensure Python code is secure.
-- [flake8-bandit](https://github.com/tylerwince/flake8-bandit) - Automated security testing using bandit.
 
 ## Testing
 
@@ -185,3 +176,11 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-pyi](https://github.com/ambv/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
 - [flake8-rst](https://github.com/kataev/flake8-rst) - Checks on code in *.rst files or in docstrings.
 - [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8.
+
+## Wrappers
+
+*Wrappers around other tools making it possible to use them with flake8.*
+
+- [flake8-bandit](https://github.com/tylerwince/flake8-bandit) - Wrapper around [bandit](https://github.com/PyCQA/bandit).
+- [flake8-black](https://github.com/peterjc/flake8-black) - Wrapper around [black](https://github.com/psf/black).
+- [flake8-isort](https://github.com/gforcada/flake8-isort) - Wrapper around [isort](https://github.com/PyCQA/isort).
