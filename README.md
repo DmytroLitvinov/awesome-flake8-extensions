@@ -13,7 +13,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [Complexity](#complexity)
 - [Comments](#comments)
 - [Docstrings](#docstrings)
-- [Enhancement for flake8](#enhancement-for-flake8)
+- [Tools](#tools)
 - [Flake8 frameworks](#flake8-frameworks)
 - [Imports](#imports)
 - [Testing](#testing)
@@ -114,11 +114,10 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings) - Validate Python docstrings as reStructuredText (RST).
 - [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc.
 
-## Enhancement for flake8
+## Tools
 
-*Extensions for flake8 plugin.*
+*Tools empowering flake8.*
 
-- [flake8-polyfill](https://gitlab.com/pycqa/flake8-polyfill) - A tiny package that provides the poly fill for Flake8 plugins trying to support Flake8 2.x and Flake8 3.x.
 - [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Plugin to generate an HTML dashboard with reporting the flake8 violations found.
 - [flakehell](https://github.com/flakehell/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
 - [flake8-codes](https://github.com/orsinium-labs/flake8-codes) - CLI tool to introspect flake8 plugins and their codes.
