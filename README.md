@@ -14,7 +14,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [Comments](#comments)
 - [Docstrings](#docstrings)
 - [Tools](#tools)
-- [Flake8 frameworks](#flake8-frameworks)
 - [Imports](#imports)
 - [Testing](#testing)
 - [Type annotations](#type-annotations)
@@ -182,6 +181,6 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 *Wrappers around other tools making it possible to use them with flake8.*
 
-- [flake8-bandit](https://github.com/tylerwince/flake8-bandit) - Automated security testing using bandit.
-- [flake8-black](https://github.com/peterjc/flake8-black) - Plugin to run [black](https://pypi.org/project/black/) for checking Python coding style.
-- [flake8-isort](https://github.com/gforcada/flake8-isort) - Plugin that integrates [isort](https://pypi.org/project/isort/).
+- [flake8-bandit](https://github.com/tylerwince/flake8-bandit) - Wrapper around [bandit](https://github.com/PyCQA/bandit).
+- [flake8-black](https://github.com/peterjc/flake8-black) - Wrapper around [black](https://github.com/psf/black).
+- [flake8-isort](https://github.com/gforcada/flake8-isort) - Wrapper around [isort](https://github.com/PyCQA/isort).
