@@ -162,6 +162,7 @@ Extensions for testing.
 - [flake8-aaa](https://github.com/jamescooke/flake8-aaa) - Lints tests against the Arrange Act Assert pattern.
 - [flake8-assertive](https://github.com/jparise/flake8-assertive) - Unittest assert method checker.
 - [flake8-mock](https://github.com/aleGpereira/flake8-mock) - Provides checking mock non-existent methods.
+- [flake8-pytest-style](https://github.com/m-burst/flake8-pytest-style) - Checks for common style issues or inconsistencies with pytest-based tests.
 - [flake8-pytest](https://github.com/vikingco/flake8-pytest) - Enforces to use `pytest`-style assertions.
 - [flake8-pytestrail](https://github.com/and-semakin/flake8-pytestrail) - Checks TestRail test case IDs.
 
