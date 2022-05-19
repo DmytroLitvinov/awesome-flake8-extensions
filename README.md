@@ -61,6 +61,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-newspaper-style](https://github.com/mobility-university/flake8-newspaper-style) - Ensures the function definition goes below its usage.
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
 - [flake8-return](https://github.com/afonasev/flake8-return) - Plugin that checks return values.
+- [flake8-scream](https://github.com/MartinThoma/flake8-scream) - Rules which do have known false-positives but might still be useful for a one-time run.
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 
