@@ -207,3 +207,4 @@ Wrappers around other tools making it possible to use them with flake8.
 - [flake8-bandit](https://github.com/tylerwince/flake8-bandit) - Wrapper around [bandit](https://github.com/PyCQA/bandit).
 - [flake8-black](https://github.com/peterjc/flake8-black) - Wrapper around [black](https://github.com/psf/black).
 - [flake8-isort](https://github.com/gforcada/flake8-isort) - Wrapper around [isort](https://github.com/PyCQA/isort).
+- [flake8-pylint](https://github.com/orsinium-labs/flake8-pylint) - Wrapper around [pylint](https://github.com/PyCQA/pylint/).
