@@ -47,6 +47,7 @@ Extensions for finding possible bugs.
 - [flake8-strftime](https://github.com/python-formate/flake8_strftime) - Checks for use of platform-specific strftime codes.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
 - [flake8-unused-arguments](https://github.com/nhoad/flake8-unused-arguments) - Warn against unused arguments in functions.
+- [flake8-useless-assert](https://github.com/decorator-factory/flake8-useless-assert) - Detect useless `assert` statements.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
 
 ## Clean code
