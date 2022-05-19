@@ -75,6 +75,7 @@ Extensions banning specific Python features.
 - [flake8-match](https://github.com/asottile/flake8-match) - Report `match` statement.
 - [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Report implicit string concatenation.
 - [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Report implicit namespace packages.
+- [flake8-no-types](https://github.com/adamchainz/flake8-no-types) - Plugin to ban type hints.
 - [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Report `%`-formatting.
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Report `print` statement.
 - [flake8-printf-formatting](https://github.com/atugushev/flake8-printf-formatting) - Report `%`-formatting.
@@ -174,7 +175,6 @@ Extensions for type annotations.
 - [flake8-annotations](https://github.com/sco1/flake8-annotations) - Plugin for flake8 to check for presence of type annotations in function definitions.
 - [flake8-future-annotations](https://github.com/tyleryep/flake8-future-annotations) - Verifies Python 3.7+ files use `from __future__ import annotations`.
 - [flake8-new-union-types](https://github.com/xome4ok/flake8-new-union-types) - Plugin to enforce new Union/Optional syntax `Foo | Bar | None` defined in PEP406.
-- [flake8-no-types](https://github.com/adamchainz/flake8-no-types) - Plugin to ban type hints.
 - [flake8-pep585](https://github.com/decorator-factory/flake8-pep585) - Enforce new style annotations from [PEP585](https://peps.python.org/pep-0585/) such as `list[int]` instead of `typing.List[int]`.
 - [flake8-pep604](https://gitlab.com/matthewhughes/flake-pep604) - Forbids use of `typing.Union` (in favour of `|`), per [PEP 604](https://peps.python.org/pep-0604/).
 - [flake8-type-checking](https://github.com/snok/flake8-type-checking) - flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved.
