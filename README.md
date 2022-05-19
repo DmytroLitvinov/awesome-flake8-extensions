@@ -54,6 +54,7 @@ Extensions for finding possible bugs.
 
 Extensions for finding stylistic issues and enforcing consistent codestyle.
 
+- [flake8-class-attributes-order](https://github.com/best-doctor/flake8-class-attributes-order) - Checks classes attributes order.
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-implicit-str-concat](https://github.com/keisheiled/flake8-implicit-str-concat) - Plugin to encourage correct string literal concatenation.
