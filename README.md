@@ -44,6 +44,7 @@ Extensions for finding possible bugs.
 - [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
 - [flake8-secure-coding-standard](https://github.com/Takishima/flake8-secure-coding-standard) - Enforce some secure coding standards for Python. <!-- TODO(@orsinium): move into "All-in-one" when grows -->
 - [flake8-slots](https://github.com/python-formate/flake8-slots) - Require `__slots__` to be defined for subclasses of immutable types.
+- [flake8-strftime](https://github.com/python-formate/flake8_strftime) - Checks for use of platform-specific strftime codes.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
 
