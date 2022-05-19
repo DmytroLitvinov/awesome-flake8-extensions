@@ -7,6 +7,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 ## Contents
 
 - [All-in-one](#all-in-one)
+- [Bugs](#bugs)
 - [Clean code](#clean-code)
 - [Limitations](#limitations)
 - [Naming](#naming)
@@ -32,24 +33,29 @@ Extensions with more than 20 rules inside.
 - [hacking](https://github.com/openstack/hacking) - Set of flake8 plugins that test and enforce the [OpenStack StyleGuide](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide).
 - [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
 
-## Clean code
+## Bugs
 
-Small extensions for finding possible bugs and stylistic issues.
+Extensions for finding possible bugs.
 
 - [flake8-2020](https://github.com/asottile/flake8-2020) - Plugin which checks for misuse of `sys.version` or `sys.version_info`.
 - [flake8-alfred](https://github.com/datatheorem/flake8-alfred) - Alfred is a flake8 plugin to warn on unsafe/obsolete symbols.
+- [flake8-encodings](https://github.com/domdfcoding/flake8-encodings) - Identify incorrect use of encodings.
+- [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
+- [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
+- [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
+
+## Clean code
+
+Extensions for finding stylistic issues and enforcing consistent codestyle.
+
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
-- [flake8-encodings](https://github.com/domdfcoding/flake8-encodings) - Identify incorrect use of encodings.
 - [flake8-implicit-str-concat](https://github.com/keisheiled/flake8-implicit-str-concat) - Plugin to encourage correct string literal concatenation.
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
-- [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
 - [flake8-return](https://github.com/afonasev/flake8-return) - Plugin that checks return values.
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
-- [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
-- [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
 
 ## Limitations
 
@@ -157,9 +163,9 @@ Extensions for type annotations.
 - [flake8-future-annotations](https://github.com/tyleryep/flake8-future-annotations) - Verifies Python 3.7+ files use `from __future__ import annotations`.
 - [flake8-new-union-types](https://github.com/xome4ok/flake8-new-union-types) - Plugin to enforce new Union/Optional syntax `Foo | Bar | None` defined in PEP406.
 - [flake8-no-types](https://github.com/adamchainz/flake8-no-types) - Plugin to ban type hints.
+- [flake8-pep585](https://github.com/decorator-factory/flake8-pep585) - Enforce new style annotations from [PEP585](https://peps.python.org/pep-0585/) such as `list[int]` instead of `typing.List[int]`.
 - [flake8-type-checking](https://github.com/snok/flake8-type-checking) - flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved.
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - Plugin which checks that typing imports are properly guarded.
-- [flake8-pep585](https://github.com/decorator-factory/flake8-pep585) - Enforce new style annotations from [PEP585](https://peps.python.org/pep-0585/) such as `list[int]` instead of `typing.List[int]`.
 
 ## Library-specific checks
 
