@@ -42,6 +42,7 @@ Extensions for finding possible bugs.
 - [flake8-dunder-all](https://github.com/python-formate/flake8-dunder-all) - Ensures that modules have defined `__all__`.
 - [flake8-encodings](https://github.com/python-formate/flake8-encodings) - Identify incorrect use of encodings.
 - [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
+- [flake8-secure-coding-standard](https://github.com/Takishima/flake8-secure-coding-standard) - Enforce some secure coding standards for Python. <!-- TODO(@orsinium): move into "All-in-one" when grows -->
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
 
