@@ -196,8 +196,9 @@ Extensions for running flake8 not only on Python files.
 
 - [flake8-markdown](https://github.com/johnfraney/flake8-markdown) - Lints Python code blocks in Markdown files using flake8.
 - [flake8-pyi](https://github.com/ambv/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
-- [flake8-rst](https://github.com/kataev/flake8-rst) - Checks on code in *.rst files or in docstrings.
+- [flake8-rst](https://github.com/kataev/flake8-rst) - Checks on code in `*.rst` files or in docstrings.
 - [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8.
+- [flake8-nb](https://github.com/s-weigand/flake8-nb) - Runs flake8 on `*.ipynb` (jupyter notebook) files.
 
 ## Wrappers
 
