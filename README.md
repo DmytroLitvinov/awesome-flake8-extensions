@@ -21,6 +21,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [Library-specific checks](#library-specific-checks)
 - [Integrations](#integrations)
 - [Wrappers](#wrappers)
+- [Formatters](#formatters)
 
 ## All-in-one
 
@@ -138,7 +139,6 @@ Extensions for checking docstrings.
 Tools empowering flake8.
 
 - [flake8-codes](https://github.com/orsinium-labs/flake8-codes) - CLI tool to introspect flake8 plugins and their codes.
-- [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Plugin to generate an HTML dashboard with reporting the flake8 violations found.
 - [flake8-pyprojecttoml](https://gitlab.com/durko/flake8-pyprojecttoml) - Adds support for reading flake8 config from pyproject.toml.
 - [flake8-ruler](https://github.com/orsinium-labs/flake8-ruler) - More powerful configs for flake8.
 - [flakehell](https://github.com/flakehell/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
@@ -210,3 +210,13 @@ Wrappers around other tools making it possible to use them with flake8.
 - [flake8-black](https://github.com/peterjc/flake8-black) - Wrapper around [black](https://github.com/psf/black).
 - [flake8-isort](https://github.com/gforcada/flake8-isort) - Wrapper around [isort](https://github.com/PyCQA/isort).
 - [flake8-pylint](https://github.com/orsinium-labs/flake8-pylint) - Wrapper around [pylint](https://github.com/PyCQA/pylint/).
+
+## Formatters
+
+Extensions for formatting flake8 output.
+
+- [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Generates an HTML dashboard.
+- [flake8-for-pycharm](https://gitlab.com/ramast/flake8-for-pycharm) - Generates pylint-style JSON output.
+- [flake8-gl-codeclimate](https://github.com/awelzel/flake8-gl-codeclimate) - Generates Gitlab Code Quality artifacts.
+- [flake8-html](https://github.com/lordmauve/flake8-html) - Generates an HTML report.
+- [flake8-json](https://github.com/PyCQA/flake8-json) - Generates JSON output.
