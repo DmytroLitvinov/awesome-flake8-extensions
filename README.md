@@ -142,6 +142,7 @@ Tools empowering flake8.
 - [flake8-pyprojecttoml](https://gitlab.com/durko/flake8-pyprojecttoml) - Adds support for reading flake8 config from pyproject.toml.
 - [flake8-ruler](https://github.com/orsinium-labs/flake8-ruler) - More powerful configs for flake8.
 - [flakehell](https://github.com/flakehell/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
+- [flakes](https://flakes.orsinium.dev/) - Web list of flake8 plugins and their codes, a wrapper around flake8-codes.
 - [nitpick](https://github.com/andreoliwa/nitpick) - Enforce the same lint configuration (flake8, isort, mypy, pylint) across multiple Python projects.
 - [wps-playground](https://github.com/orsinium-labs/wps-playground) - Online playground for wemake-python-styleguide.
 - [yesqa](https://github.com/asottile/yesqa) - A tool to automatically remove unnecessary `# noqa` comments.
