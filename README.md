@@ -113,6 +113,7 @@ Extensions for ensuring low code complexity.
 
 Extensions for checking comments.
 
+- [flake8-author](https://github.com/jparise/flake8-author) - Checks Python modules for `__author__` attributes.
 - [flake8-coding](https://github.com/tk0miya/flake8-coding) - Adds coding magic comment checks (coding:) to flake8.
 - [flake8-comments](https://github.com/orsinium-labs/flake8-comments) - Reports redundant comments.
 - [flake8-copyright](https://github.com/savoirfairelinux/flake8-copyright) - Adds copyright checks to flake8.
