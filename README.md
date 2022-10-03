@@ -4,7 +4,7 @@
 
 Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-extensions/).
 
-## Contents
+## 📖Contents
 
 - [All-in-one](#all-in-one)
 - [Bugs](#bugs)
@@ -23,7 +23,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 - [Wrappers](#wrappers)
 - [Formatters](#formatters)
 
-## All-in-one
+## 🖥All-in-one
 
 Extensions with more than 20 rules inside.
 
@@ -34,7 +34,7 @@ Extensions with more than 20 rules inside.
 - [hacking](https://github.com/openstack/hacking) - Set of flake8 plugins that test and enforce the [OpenStack StyleGuide](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide).
 - [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
 
-## Bugs
+## 🐞Bugs
 
 Extensions for finding possible bugs.
 
@@ -51,7 +51,7 @@ Extensions for finding possible bugs.
 - [flake8-useless-assert](https://github.com/decorator-factory/flake8-useless-assert) - Detect useless `assert` statements.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
 
-## Clean code
+## 🧹Clean code
 
 Extensions for finding stylistic issues and enforcing consistent codestyle.
 
@@ -71,7 +71,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-too-many](https://github.com/queensferryme/flake8-too-many) - Plugin that prevents you from writing "too many" bad codes.
 
-## Limitations
+## 🚧Limitations
 
 Extensions banning specific Python features.
 
@@ -90,7 +90,7 @@ Extensions banning specific Python features.
 - [flake8-use-pathlib](https://gitlab.com/RoPP/flake8-use-pathlib) - Report `os.path`.
 - [flake8-walrus](https://github.com/asottile/flake8-walrus) - Report walrus operator (`:=`).
 
-## Naming
+## ✍Naming
 
 Extensions for checking names of variables, functions, etc.
 
@@ -100,7 +100,7 @@ Extensions for checking names of variables, functions, etc.
 - [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - Extension that helps to make more readable variables names.
 - [pep8-naming](https://github.com/PyCQA/pep8-naming) - Check the PEP-8 naming conventions.
 
-## Complexity
+## 🚩Complexity
 
 Extensions for ensuring low code complexity.
 
@@ -111,7 +111,7 @@ Extensions for ensuring low code complexity.
 - [flake8-functions](https://github.com/best-doctor/flake8-functions) - Plugin for validation of function parameters (length, complexity, etc).
 - [flake8-length](https://github.com/orsinium-labs/flake8-length) - Smart line length validation.
 
-## Comments
+## 📔Comments
 
 Extensions for checking comments.
 
@@ -128,7 +128,7 @@ Extensions for checking comments.
 - [flake8-todo](https://github.com/schlamar/flake8-todo) - Check for TODO notes.
 - [flake8-todos](https://github.com/orsinium-labs/flake8-todos) - Lint TODO comments to be consistent and have an issue linked.
 
-## Docstrings
+## 🧾Docstrings
 
 Extensions for checking docstrings.
 
@@ -139,7 +139,7 @@ Extensions for checking docstrings.
 - [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc.
 - [flake8-sphinx-links](https://github.com/python-formate/flake8-sphinx-links) - Check docstrings for double backticked strings which should be links to the Python documentation.
 
-## Tools
+## 🔧Tools
 
 Tools empowering flake8.
 
