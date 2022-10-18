@@ -127,6 +127,7 @@ Extensions for checking comments.
 - [flake8-ownership](https://github.com/decafjoe/flake8-ownership) - Checker for assuring that author, copyright, and license are specified in source files.
 - [flake8-todo](https://github.com/schlamar/flake8-todo) - Check for TODO notes.
 - [flake8-todos](https://github.com/orsinium-labs/flake8-todos) - Lint TODO comments to be consistent and have an issue linked.
+- [flake8-ado](https://github.com/DanielKusyDev/flake8-ado) - Check that all Azure DevOps IDs mentioned in the comments are in the correct format and have the corresponding ADO item.
 
 ## Docstrings
 
