@@ -70,6 +70,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-too-many](https://github.com/queensferryme/flake8-too-many) - Plugin that prevents you from writing "too many" bad codes.
+- [tryceratops](https://github.com/guilatrova/tryceratops) - Prevent exception handling antipatterns.
 
 ## Limitations
 
