@@ -70,6 +70,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-too-many](https://github.com/queensferryme/flake8-too-many) - Plugin that prevents you from writing "too many" bad codes.
+- [flake8-picky-parentheses](https://github.com/robsdedude/flake8-picky-parentheses) - Checks for redundant parentheses and alignment of parentheses and brackets.
 
 ## Limitations
 
