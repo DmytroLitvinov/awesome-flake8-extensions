@@ -1,6 +1,6 @@
 # Awesome Flake8 Extensions [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-> A curated list of awesome flake8 extensions.
+> A curated list of awesome flake8 extensions
 
 Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-extensions/).
 
@@ -25,7 +25,7 @@ Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-exten
 
 ## All-in-one
 
-Extensions with more than 20 rules inside.
+Extensions with more than 20 rules inside
 
 - [dlint](https://github.com/dlint-py/dlint) - Tool for encouraging best coding practices and helping ensure Python code is secure.
 - [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - Finding likely bugs and design problems in your program.
@@ -36,7 +36,7 @@ Extensions with more than 20 rules inside.
 
 ## Bugs
 
-Extensions for finding possible bugs.
+Extensions for finding possible bugs
 
 - [flake8-2020](https://github.com/asottile/flake8-2020) - Plugin which checks for misuse of `sys.version` or `sys.version_info`.
 - [flake8-alfred](https://github.com/datatheorem/flake8-alfred) - Alfred is a flake8 plugin to warn on unsafe/obsolete symbols.
@@ -53,7 +53,7 @@ Extensions for finding possible bugs.
 
 ## Clean code
 
-Extensions for finding stylistic issues and enforcing consistent codestyle.
+Extensions for finding stylistic issues and enforcing consistent codestyle
 
 - [flake8-class-attributes-order](https://github.com/best-doctor/flake8-class-attributes-order) - Checks classes attributes order.
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
@@ -74,7 +74,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 
 ## Limitations
 
-Extensions banning specific Python features.
+Extensions banning specific Python features
 
 - [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Report line break with backslash (`\`).
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Report debug statements (`pdb`, `ipdb`).
@@ -103,7 +103,7 @@ Extensions for checking names of variables, functions, etc.
 
 ## Complexity
 
-Extensions for ensuring low code complexity.
+Extensions for ensuring low code complexity
 
 - [cohesion](https://github.com/mschwager/cohesion#flake8-support) - Extension for measuring Python class cohesion.
 - [flake8-annotations-complexity](https://github.com/best-doctor/flake8-annotations-complexity) - Plugin to validate annotations complexity.
@@ -114,7 +114,7 @@ Extensions for ensuring low code complexity.
 
 ## Comments
 
-Extensions for checking comments.
+Extensions for checking comments
 
 - [flake8-author](https://github.com/jparise/flake8-author) - Checks Python modules for `__author__` attributes.
 - [flake8-coding](https://github.com/tk0miya/flake8-coding) - Adds coding magic comment checks (coding:) to flake8.
@@ -132,7 +132,7 @@ Extensions for checking comments.
 
 ## Docstrings
 
-Extensions for checking docstrings.
+Extensions for checking docstrings
 
 - [darglint](https://github.com/terrencepreilly/darglint) - Check that the docstring description matches the definition.
 - [flake8-docstrings](https://github.com/pycqa/flake8-docstrings) - Include checks provided by pep257.
@@ -143,7 +143,7 @@ Extensions for checking docstrings.
 
 ## Tools
 
-Tools empowering flake8.
+Tools empowering flake8
 
 - [flake8-codes](https://github.com/orsinium-labs/flake8-codes) - CLI tool to introspect flake8 plugins and their codes.
 - [flake8-pyprojecttoml](https://gitlab.com/durko/flake8-pyprojecttoml) - Adds support for reading flake8 config from pyproject.toml.
@@ -156,7 +156,7 @@ Tools empowering flake8.
 
 ## Imports
 
-Extensions for checking import statements.
+Extensions for checking import statements
 
 - [flake8-absolute-import](https://github.com/bskinn/flake8-absolute-import) - Plugin to require absolute imports.
 - [flake8-alphabetize](https://github.com/tlocke/flake8-alphabetize) - Checking the order of `import` statements and the `__all__` list.
@@ -169,7 +169,7 @@ Extensions for checking import statements.
 
 ## Testing
 
-Extensions for testing.
+Extensions for testing
 
 - [flake8-aaa](https://github.com/jamescooke/flake8-aaa) - Lints tests against the Arrange Act Assert pattern.
 - [flake8-assertive](https://github.com/jparise/flake8-assertive) - Unittest assert method checker.
@@ -180,7 +180,7 @@ Extensions for testing.
 
 ## Type annotations
 
-Extensions for type annotations.
+Extensions for type annotations
 
 - [flake8-annotations-coverage](https://github.com/best-doctor/flake8-annotations-coverage) - Plugin to validate annotations coverage.
 - [flake8-annotations](https://github.com/sco1/flake8-annotations) - Plugin for flake8 to check for presence of type annotations in function definitions.
@@ -193,7 +193,7 @@ Extensions for type annotations.
 
 ## Library-specific checks
 
-Extensions for linting usage of specific libraries.
+Extensions for linting usage of specific libraries
 
 - [flake8-django](https://github.com/rocioar/flake8-django) - Plugin for Django projects.
 - [flake8-django-migrations](https://github.com/browniebroke/flake8-django-migrations) - Plugin to lint for backwards incompatible database migrations in Django.
@@ -203,7 +203,7 @@ Extensions for linting usage of specific libraries.
 
 ## Integrations
 
-Extensions for running flake8 not only on Python files.
+Extensions for running flake8 not only on Python files
 
 - [flake8-markdown](https://github.com/johnfraney/flake8-markdown) - Lints Python code blocks in Markdown files using flake8.
 - [flake8-pyi](https://github.com/ambv/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
@@ -213,7 +213,7 @@ Extensions for running flake8 not only on Python files.
 
 ## Wrappers
 
-Wrappers around other tools making it possible to use them with flake8.
+Wrappers around other tools making it possible to use them with flake8
 
 - [flake8-bandit](https://github.com/tylerwince/flake8-bandit) - Wrapper around [bandit](https://github.com/PyCQA/bandit).
 - [flake8-black](https://github.com/peterjc/flake8-black) - Wrapper around [black](https://github.com/psf/black).
@@ -222,7 +222,7 @@ Wrappers around other tools making it possible to use them with flake8.
 
 ## Formatters
 
-Extensions for formatting flake8 output.
+Extensions for formatting flake8 output
 
 - [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Generates an HTML dashboard.
 - [flake8-for-pycharm](https://gitlab.com/ramast/flake8-for-pycharm) - Generates pylint-style JSON output.
