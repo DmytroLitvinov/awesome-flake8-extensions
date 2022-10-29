@@ -231,3 +231,14 @@ Extensions for formatting flake8 output.
 - [flake8-json](https://github.com/PyCQA/flake8-json) - Generates JSON output.
 
 [pep604]: https://peps.python.org/pep-0604/ 'PEP 604'
+
+```javascript
+
+  _____ _                 _     __   __
+ |_   _| |__   __ _ _ __ | | __ \ \ / /__  _   _
+   | | | '_ \ / _` | '_ \| |/ /  \ V / _ \| | | |
+   | | | | | | (_| | | | |   <    | | (_) | |_| |
+   |_| |_| |_|\__,_|_| |_|_|\_\   |_|\___/ \__,_|
+
+
+```
