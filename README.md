@@ -40,6 +40,7 @@ Extensions for finding possible bugs.
 
 - [flake8-2020](https://github.com/asottile/flake8-2020) - Plugin which checks for misuse of `sys.version` or `sys.version_info`.
 - [flake8-alfred](https://github.com/datatheorem/flake8-alfred) - Alfred is a flake8 plugin to warn on unsafe/obsolete symbols.
+- [flake8-async](https://github.com/cooperlees/flake8-async) - A flake8 plugin that checks for bad async / asyncio practices.
 - [flake8-dunder-all](https://github.com/python-formate/flake8-dunder-all) - Ensures that modules have defined `__all__`.
 - [flake8-encodings](https://github.com/python-formate/flake8-encodings) - Identify incorrect use of encodings.
 - [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
