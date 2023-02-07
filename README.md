@@ -148,6 +148,7 @@ Extensions for checking docstrings.
 Tools empowering flake8.
 
 - [flake8-codes](https://github.com/orsinium-labs/flake8-codes) - CLI tool to introspect flake8 plugins and their codes.
+- [flake8-pyproject](https://github.com/john-hen/Flake8-pyproject) - Flake8 plug-in loading the configuration from pyproject.toml.
 - [flake8-pyprojecttoml](https://gitlab.com/durko/flake8-pyprojecttoml) - Adds support for reading flake8 config from pyproject.toml.
 - [flake8-ruler](https://github.com/orsinium-labs/flake8-ruler) - More powerful configs for flake8.
 - [flakehell](https://github.com/flakehell/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
