@@ -169,6 +169,7 @@ Extensions for checking import statements.
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Extension that helps you write tidier imports.
 - [flake8-type-checking](https://github.com/sondrelg/flake8-type-checking) - Plugin for managing type-checking imports & forward references.
 - [flake8-datetime-import](https://github.com/marcgibbons/flake8-datetime-import) - Enforce importing `datetime as dt` and `time as tm`.
+- [flake8-import-conventions](https://github.com/joaopalmeiro/flake8-import-conventions) - How certain packages should be imported or aliased.
 
 ## Testing
 
