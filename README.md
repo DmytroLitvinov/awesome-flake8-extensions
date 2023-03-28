@@ -57,7 +57,6 @@ Extensions for finding possible bugs.
 Extensions for finding stylistic issues and enforcing consistent codestyle.
 
 - [flake8-class-attributes-order](https://github.com/best-doctor/flake8-class-attributes-order) - Checks classes attributes order.
-- [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-datetime-utcnow-plugin](https://github.com/expobrain/flake8-datetime-utcnow-plugin) -  Plugin to warn the developer of the usage of `datetime.utcnow()`.
 - [flake8-datetimez](https://github.com/pjknkda/flake8-datetimez) - A plugin for flake8 to ban the usage of unsafe naive datetime class.
@@ -85,7 +84,6 @@ Extensions banning specific Python features.
 - [flake8-match](https://github.com/asottile/flake8-match) - Report `match` statement.
 - [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Report implicit string concatenation.
 - [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Report implicit namespace packages.
-- [flake8-no-types](https://github.com/adamchainz/flake8-no-types) - Plugin to ban type hints.
 - [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Report `%`-formatting.
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Report `print` statement.
 - [flake8-printf-formatting](https://github.com/atugushev/flake8-printf-formatting) - Report `%`-formatting.
@@ -136,7 +134,6 @@ Extensions for checking comments.
 
 Extensions for checking docstrings.
 
-- [darglint](https://github.com/terrencepreilly/darglint) - Check that the docstring description matches the definition.
 - [flake8-docstrings](https://github.com/pycqa/flake8-docstrings) - Include checks provided by pep257.
 - [flake8-docstring-checker](https://gitlab.com/JakobDev/flake8-docstring-checker) - Checks if everything has a docstring.
 - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings) - Validate Python docstrings as reStructuredText (RST).
