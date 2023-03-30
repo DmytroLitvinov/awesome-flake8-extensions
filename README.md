@@ -57,7 +57,6 @@ Extensions for finding possible bugs.
 Extensions for finding stylistic issues and enforcing consistent codestyle.
 
 - [flake8-class-attributes-order](https://github.com/best-doctor/flake8-class-attributes-order) - Checks classes attributes order.
-- [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-datetime-utcnow-plugin](https://github.com/expobrain/flake8-datetime-utcnow-plugin) -  Plugin to warn the developer of the usage of `datetime.utcnow()`.
 - [flake8-datetimez](https://github.com/pjknkda/flake8-datetimez) - A plugin for flake8 to ban the usage of unsafe naive datetime class.
@@ -85,7 +84,6 @@ Extensions banning specific Python features.
 - [flake8-match](https://github.com/asottile/flake8-match) - Report `match` statement.
 - [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Report implicit string concatenation.
 - [flake8-no-pep420](https://github.com/adamchainz/flake8-no-pep420) - Report implicit namespace packages.
-- [flake8-no-types](https://github.com/adamchainz/flake8-no-types) - Plugin to ban type hints.
 - [flake8-pep3101](https://github.com/gforcada/flake8-pep3101) - Report `%`-formatting.
 - [flake8-print](https://github.com/JBKahn/flake8-print) - Report `print` statement.
 - [flake8-printf-formatting](https://github.com/atugushev/flake8-printf-formatting) - Report `%`-formatting.
@@ -118,6 +116,7 @@ Extensions for ensuring low code complexity.
 
 Extensions for checking comments.
 
+- [flake8-ado](https://github.com/DanielKusyDev/flake8-ado) - Check that all Azure DevOps IDs mentioned in the comments are in the correct format and have the corresponding ADO item.
 - [flake8-author](https://github.com/jparise/flake8-author) - Checks Python modules for `__author__` attributes.
 - [flake8-coding](https://github.com/tk0miya/flake8-coding) - Adds coding magic comment checks (coding:) to flake8.
 - [flake8-comments](https://github.com/orsinium-labs/flake8-comments) - Reports redundant comments.
@@ -130,15 +129,13 @@ Extensions for checking comments.
 - [flake8-ownership](https://github.com/decafjoe/flake8-ownership) - Checker for assuring that author, copyright, and license are specified in source files.
 - [flake8-todo](https://github.com/schlamar/flake8-todo) - Check for TODO notes.
 - [flake8-todos](https://github.com/orsinium-labs/flake8-todos) - Lint TODO comments to be consistent and have an issue linked.
-- [flake8-ado](https://github.com/DanielKusyDev/flake8-ado) - Check that all Azure DevOps IDs mentioned in the comments are in the correct format and have the corresponding ADO item.
 
 ## Docstrings
 
 Extensions for checking docstrings.
 
-- [darglint](https://github.com/terrencepreilly/darglint) - Check that the docstring description matches the definition.
-- [flake8-docstrings](https://github.com/pycqa/flake8-docstrings) - Include checks provided by pep257.
 - [flake8-docstring-checker](https://gitlab.com/JakobDev/flake8-docstring-checker) - Checks if everything has a docstring.
+- [flake8-docstrings](https://github.com/pycqa/flake8-docstrings) - Include checks provided by pep257.
 - [flake8-docstrings-complete](https://github.com/jdkandersson/flake8-docstrings-complete) - Linter that checks docstrings of functions, methods and classes.
 - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings) - Validate Python docstrings as reStructuredText (RST).
 - [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc.
@@ -149,6 +146,7 @@ Extensions for checking docstrings.
 Tools empowering flake8.
 
 - [flake8-codes](https://github.com/orsinium-labs/flake8-codes) - CLI tool to introspect flake8 plugins and their codes.
+- [flake8-pyproject](https://github.com/john-hen/Flake8-pyproject) - Flake8 plug-in loading the configuration from pyproject.toml.
 - [flake8-pyprojecttoml](https://gitlab.com/durko/flake8-pyprojecttoml) - Adds support for reading flake8 config from pyproject.toml.
 - [flake8-ruler](https://github.com/orsinium-labs/flake8-ruler) - More powerful configs for flake8.
 - [flakehell](https://github.com/flakehell/flakehell) - Wrapper to make it nice, legacy-friendly, and configurable.
@@ -163,13 +161,14 @@ Extensions for checking import statements.
 
 - [flake8-absolute-import](https://github.com/bskinn/flake8-absolute-import) - Plugin to require absolute imports.
 - [flake8-alphabetize](https://github.com/tlocke/flake8-alphabetize) - Checking the order of `import` statements and the `__all__` list.
+- [flake8-datetime-import](https://github.com/marcgibbons/flake8-datetime-import) - Enforce importing `datetime as dt` and `time as tm`.
 - [flake8-future-import](https://github.com/xZise/flake8-future-import) - Extension to check imports.
+- [flake8-import-conventions](https://github.com/joaopalmeiro/flake8-import-conventions) - How certain packages should be imported or aliased.
 - [flake8-import-order-spoqa](https://github.com/spoqa/flake8-import-order-spoqa) - Spoqa's import order style for flake8-import-order.
 - [flake8-import-order](https://github.com/PyCQA/flake8-import-order) - Include checks import order against various Python Style Guides.
 - [flake8-import-style](https://github.com/sfstpala/flake8-import-style) - Plugin to ensure explicit module imports.
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Extension that helps you write tidier imports.
 - [flake8-type-checking](https://github.com/sondrelg/flake8-type-checking) - Plugin for managing type-checking imports & forward references.
-- [flake8-datetime-import](https://github.com/marcgibbons/flake8-datetime-import) - Enforce importing `datetime as dt` and `time as tm`.
 
 ## Testing
 
@@ -200,8 +199,8 @@ Extensions for type annotations.
 
 Extensions for linting usage of specific libraries.
 
-- [flake8-django](https://github.com/rocioar/flake8-django) - Plugin for Django projects.
 - [flake8-django-migrations](https://github.com/browniebroke/flake8-django-migrations) - Plugin to lint for backwards incompatible database migrations in Django.
+- [flake8-django](https://github.com/rocioar/flake8-django) - Plugin for Django projects.
 - [flake8-fastapi](https://github.com/Kludex/flake8-fastapi) - Checks FastAPI code against opinionated style rules.
 - [flake8-scrapy](https://github.com/stummjr/flake8-scrapy) - Plugin to catch common issues on Scrapy spiders.
 - [pandas-vet](https://github.com/deppen8/pandas-vet) - Plugin that provides opinionated linting for pandas code.
@@ -211,10 +210,10 @@ Extensions for linting usage of specific libraries.
 Extensions for running flake8 not only on Python files.
 
 - [flake8-markdown](https://github.com/johnfraney/flake8-markdown) - Lints Python code blocks in Markdown files using flake8.
+- [flake8-nb](https://github.com/s-weigand/flake8-nb) - Runs flake8 on `*.ipynb` (jupyter notebook) files.
 - [flake8-pyi](https://github.com/ambv/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
 - [flake8-rst](https://github.com/kataev/flake8-rst) - Checks on code in `*.rst` files or in docstrings.
 - [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8.
-- [flake8-nb](https://github.com/s-weigand/flake8-nb) - Runs flake8 on `*.ipynb` (jupyter notebook) files.
 
 ## Wrappers
 
