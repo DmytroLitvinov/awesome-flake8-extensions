@@ -57,14 +57,18 @@ Extensions for finding possible bugs.
 Extensions for finding stylistic issues and enforcing consistent codestyle.
 
 - [flake8-class-attributes-order](https://github.com/best-doctor/flake8-class-attributes-order) - Checks classes attributes order.
+- [flake8-clean-block](https://github.com/cyyc1/flake8-clean-block) - Plugin to enforce a blank line after if/for/while/with/try blocks.
+- [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-datetime-utcnow-plugin](https://github.com/expobrain/flake8-datetime-utcnow-plugin) -  Plugin to warn the developer of the usage of `datetime.utcnow()`.
 - [flake8-datetimez](https://github.com/pjknkda/flake8-datetimez) - A plugin for flake8 to ban the usage of unsafe naive datetime class.
 - [flake8-implicit-str-concat](https://github.com/keisheiled/flake8-implicit-str-concat) - Plugin to encourage correct string literal concatenation.
+- [flake8-indent-in-def](https://github.com/cyyc1/flake8-indent-in-def) - Plugin to enforce 8-space indentation in function and class definitions.
 - [flake8-literal](https://github.com/plinss/flake8-literal) - Enforces consistent styling of string literals.
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
 - [flake8-newspaper-style](https://github.com/mobility-university/flake8-newspaper-style) - Ensures the function definition goes below its usage.
 - [flake8-obey-import-goat](https://github.com/Melevir/flake8-obey-import-goat) - Allows to forbid specific imports.
+- [flake8-picky-parentheses](https://github.com/robsdedude/flake8-picky-parentheses) - Checks for redundant parentheses and alignment of parentheses and brackets.
 - [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
 - [flake8-return](https://github.com/afonasev/flake8-return) - Plugin that checks return values.
 - [flake8-scream](https://github.com/MartinThoma/flake8-scream) - Rules which do have known false-positives but might still be useful for a one-time run.
@@ -72,7 +76,6 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
 - [flake8-too-many](https://github.com/queensferryme/flake8-too-many) - Plugin that prevents you from writing "too many" bad codes.
 - [tryceratops](https://github.com/guilatrova/tryceratops) - Prevent exception handling antipatterns.
-- [flake8-picky-parentheses](https://github.com/robsdedude/flake8-picky-parentheses) - Checks for redundant parentheses and alignment of parentheses and brackets.
 
 ## Limitations
 
