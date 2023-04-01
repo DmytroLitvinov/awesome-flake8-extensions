@@ -137,6 +137,7 @@ Extensions for checking docstrings.
 
 - [flake8-docstring-checker](https://gitlab.com/JakobDev/flake8-docstring-checker) - Checks if everything has a docstring.
 - [flake8-docstrings](https://github.com/pycqa/flake8-docstrings) - Include checks provided by pep257.
+- [flake8-docstrings-complete](https://github.com/jdkandersson/flake8-docstrings-complete) - Linter that checks docstrings of functions, methods and classes.
 - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings) - Validate Python docstrings as reStructuredText (RST).
 - [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc.
 - [flake8-sphinx-links](https://github.com/python-formate/flake8-sphinx-links) - Check docstrings for double backticked strings which should be links to the Python documentation.
@@ -177,6 +178,7 @@ Extensions for testing.
 - [flake8-aaa](https://github.com/jamescooke/flake8-aaa) - Lints tests against the Arrange Act Assert pattern.
 - [flake8-assertive](https://github.com/jparise/flake8-assertive) - Unittest assert method checker.
 - [flake8-mock](https://github.com/aleGpereira/flake8-mock) - Provides checking mock non-existent methods.
+- [flake8-mock-spec](https://github.com/jdkandersson/flake8-mock-spec) - Enforce the use of the spec argument on mocks ensuring that your use of mocks is compliant with the interface of the object being mocked.
 - [flake8-pytest-style](https://github.com/m-burst/flake8-pytest-style) - Checks for common style issues or inconsistencies with pytest-based tests.
 - [flake8-pytest](https://github.com/vikingco/flake8-pytest) - Enforces to use `pytest`-style assertions.
 - [flake8-pytestrail](https://github.com/and-semakin/flake8-pytestrail) - Checks TestRail test case IDs.
