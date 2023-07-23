@@ -144,7 +144,7 @@ Extensions for checking docstrings.
 - [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings) - Validate Python docstrings as reStructuredText (RST).
 - [flake8-spellcheck](https://github.com/MichaelAquilina/flake8-spellcheck) - Spellcheck variables, classnames, comments, docstrings etc.
 - [flake8-sphinx-links](https://github.com/python-formate/flake8-sphinx-links) - Check docstrings for double backticked strings which should be links to the Python documentation.
-- [pydoclint](https://github.com/jsh9/pydoclint) - A Python docstring linter that checks arguments, returns, yields, and raises sections
+- [pydoclint](https://github.com/jsh9/pydoclint) - A Python docstring linter that checks arguments, returns, yields, and raises sections.
 
 ## Tools
 
@@ -207,6 +207,7 @@ Extensions for linting usage of specific libraries.
 - [flake8-django-migrations](https://github.com/browniebroke/flake8-django-migrations) - Plugin to lint for backwards incompatible database migrations in Django.
 - [flake8-django](https://github.com/rocioar/flake8-django) - Plugin for Django projects.
 - [flake8-fastapi](https://github.com/Kludex/flake8-fastapi) - Checks FastAPI code against opinionated style rules.
+- [flake8-numba](https://github.com/mflova/flake8-numba) - Plugin that facilitates code development with `numba` package.
 - [flake8-scrapy](https://github.com/stummjr/flake8-scrapy) - Plugin to catch common issues on Scrapy spiders.
 - [pandas-vet](https://github.com/deppen8/pandas-vet) - Plugin that provides opinionated linting for pandas code.
 
