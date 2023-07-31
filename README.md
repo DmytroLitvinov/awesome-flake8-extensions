@@ -174,7 +174,7 @@ Extensions for checking import statements.
 - [flake8-import-style](https://github.com/sfstpala/flake8-import-style) - Plugin to ensure explicit module imports.
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Extension that helps you write tidier imports.
 - [flake8-type-checking](https://github.com/sondrelg/flake8-type-checking) - Plugin for managing type-checking imports & forward references.
-- [flake8-private-name-import](https://github.com/rows-s/flake8_private_name_import) - Plugin that reports imports of protected and private names.
+- [flake8-internal-name-import](https://github.com/rows-s/flake8_internal_name_import) - Plugin that reports imports of internal names.
 
 ## Testing
 
