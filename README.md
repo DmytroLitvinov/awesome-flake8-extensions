@@ -56,6 +56,7 @@ Extensions for finding possible bugs.
 
 Extensions for finding stylistic issues and enforcing consistent codestyle.
 
+- [flake8-all-not-strings](https://github.com/ggupta2005/flake8-all-not-strings) - Checks that if modules under `__all__` are defined as strings.
 - [flake8-class-attributes-order](https://github.com/best-doctor/flake8-class-attributes-order) - Checks classes attributes order.
 - [flake8-clean-block](https://github.com/cyyc1/flake8-clean-block) - Plugin to enforce a blank line after if/for/while/with/try blocks.
 - [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
