@@ -241,5 +241,6 @@ Extensions for formatting flake8 output.
 - [flake8-gl-codeclimate](https://github.com/awelzel/flake8-gl-codeclimate) - Generates Gitlab Code Quality artifacts.
 - [flake8-html](https://github.com/lordmauve/flake8-html) - Generates an HTML report.
 - [flake8-json](https://github.com/PyCQA/flake8-json) - Generates JSON output.
+- [flake8-github](https://github.com/maxkrivich/flake8-github) - Generates GitHub annotation for PR's.
 
 [pep604]: https://peps.python.org/pep-0604/ 'PEP 604'
