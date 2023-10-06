@@ -51,6 +51,7 @@ Extensions for finding possible bugs.
 - [flake8-unused-arguments](https://github.com/nhoad/flake8-unused-arguments) - Warn against unused arguments in functions.
 - [flake8-useless-assert](https://github.com/decorator-factory/flake8-useless-assert) - Detect useless `assert` statements.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
+- [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Detect usage of mutable objects as default values for arguments.
 
 ## Clean code
 
