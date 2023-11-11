@@ -43,6 +43,8 @@ Extensions for finding possible bugs.
 - [flake8-async](https://github.com/cooperlees/flake8-async) - A flake8 plugin that checks for bad async / asyncio practices.
 - [flake8-dunder-all](https://github.com/python-formate/flake8-dunder-all) - Ensures that modules have defined `__all__`.
 - [flake8-encodings](https://github.com/python-formate/flake8-encodings) - Identify incorrect use of encodings.
+- [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Detect usage of mutable objects as default values for arguments.
+- [flake8-qt-tr](https://github.com/ostr00000/flake8-qt-tr) - Detect incorrectly wrapped Qt translation text.
 - [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
 - [flake8-secure-coding-standard](https://github.com/Takishima/flake8-secure-coding-standard) - Enforce some secure coding standards for Python. <!-- TODO(@orsinium): move into "All-in-one" when grows -->
 - [flake8-slots](https://github.com/python-formate/flake8-slots) - Require `__slots__` to be defined for subclasses of immutable types.
@@ -51,7 +53,6 @@ Extensions for finding possible bugs.
 - [flake8-unused-arguments](https://github.com/nhoad/flake8-unused-arguments) - Warn against unused arguments in functions.
 - [flake8-useless-assert](https://github.com/decorator-factory/flake8-useless-assert) - Detect useless `assert` statements.
 - [flake8-warnings](https://github.com/orsinium-labs/flake8-warnings) - Detect usage of deprecated modules, classes, and functions.
-- [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Detect usage of mutable objects as default values for arguments.
 
 ## Clean code
 
@@ -174,9 +175,9 @@ Extensions for checking import statements.
 - [flake8-import-order-spoqa](https://github.com/spoqa/flake8-import-order-spoqa) - Spoqa's import order style for flake8-import-order.
 - [flake8-import-order](https://github.com/PyCQA/flake8-import-order) - Include checks import order against various Python Style Guides.
 - [flake8-import-style](https://github.com/sfstpala/flake8-import-style) - Plugin to ensure explicit module imports.
+- [flake8-internal-name-import](https://github.com/rows-s/flake8_internal_name_import) - Plugin that reports imports of protected names.
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Extension that helps you write tidier imports.
 - [flake8-type-checking](https://github.com/sondrelg/flake8-type-checking) - Plugin for managing type-checking imports & forward references.
-- [flake8-internal-name-import](https://github.com/rows-s/flake8_internal_name_import) - Plugin that reports imports of protected names.
 
 ## Testing
 
@@ -239,9 +240,9 @@ Extensions for formatting flake8 output.
 
 - [flake8-dashboard](https://github.com/aperezhortal/flake8-dashboard) - Generates an HTML dashboard.
 - [flake8-for-pycharm](https://gitlab.com/ramast/flake8-for-pycharm) - Generates pylint-style JSON output.
-- [flake8-gl-codeclimate](https://github.com/awelzel/flake8-gl-codeclimate) - Generates Gitlab Code Quality artifacts.
+- [flake8-github](https://github.com/maxkrivich/flake8-github) - Generates GitHub annotation for PR's.
+- [flake8-gl-codeclimate](https://github.com/awelzel/flake8-gl-codeclimate) - Generates GitLab Code Quality artifacts.
 - [flake8-html](https://github.com/lordmauve/flake8-html) - Generates an HTML report.
 - [flake8-json](https://github.com/PyCQA/flake8-json) - Generates JSON output.
-- [flake8-github](https://github.com/maxkrivich/flake8-github) - Generates GitHub annotation for PR's.
 
 [pep604]: https://peps.python.org/pep-0604/ 'PEP 604'
