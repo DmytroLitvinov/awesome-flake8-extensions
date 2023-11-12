@@ -177,7 +177,7 @@ Extensions for checking import statements.
 - [flake8-import-style](https://github.com/sfstpala/flake8-import-style) - Plugin to ensure explicit module imports.
 - [flake8-internal-name-import](https://github.com/rows-s/flake8_internal_name_import) - Plugin that reports imports of protected names.
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Extension that helps you write tidier imports.
-- [flake8-type-checking](https://github.com/snok/flake8-type-checking) - Plugin for managing type-checking imports & forward references.
+- [flake8-type-checking](https://github.com/snok/flake8-type-checking) - Plugin lets you know which imports to move in or out of type-checking blocks.
 
 ## Testing
 
@@ -201,7 +201,6 @@ Extensions for type annotations.
 - [flake8-new-union-types](https://github.com/xome4ok/flake8-new-union-types) - Plugin to enforce new Union/Optional syntax `Foo | Bar | None` defined in [PEP 604][pep604].
 - [flake8-pep585](https://github.com/decorator-factory/flake8-pep585) - Enforce new style annotations from [PEP585](https://peps.python.org/pep-0585/) such as `list[int]` instead of `typing.List[int]`.
 - [flake8-pep604](https://gitlab.com/matthewhughes/flake-pep604) - Forbids use of `typing.Union` (in favour of `|`), per [PEP 604][pep604].
-- [flake8-type-checking](https://github.com/snok/flake8-type-checking) - flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved.
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - Plugin which checks that typing imports are properly guarded.
 
 ## Library-specific checks
