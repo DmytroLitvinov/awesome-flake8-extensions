@@ -65,7 +65,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-datetime-utcnow-plugin](https://github.com/expobrain/flake8-datetime-utcnow-plugin) -  Plugin to warn the developer of the usage of `datetime.utcnow()`.
 - [flake8-datetimez](https://github.com/pjknkda/flake8-datetimez) - A plugin for flake8 to ban the usage of unsafe naive datetime class.
-- [flake8-implicit-str-concat](https://github.com/flake8-implicit-str-concat/flake8-implicit-str-concat ) - Plugin to encourage correct string literal concatenation.
+- [flake8-implicit-str-concat](https://github.com/flake8-implicit-str-concat/flake8-implicit-str-concat) - Plugin to encourage correct string literal concatenation.
 - [flake8-indent-in-def](https://github.com/cyyc1/flake8-indent-in-def) - Plugin to enforce 8-space indentation in function and class definitions.
 - [flake8-literal](https://github.com/plinss/flake8-literal) - Enforces consistent styling of string literals.
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
