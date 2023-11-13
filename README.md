@@ -2,7 +2,7 @@
 
 > A curated list of awesome flake8 extensions.
 
-Inspired after reading a [post](https://julien.danjou.info/the-best-flake8-extensions/).
+Inspired after reading a [post](https://web.archive.org/web/20230322220629/https://julien.danjou.info/the-best-flake8-extensions/).
 
 ## Contents
 
@@ -65,7 +65,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-datetime-utcnow-plugin](https://github.com/expobrain/flake8-datetime-utcnow-plugin) -  Plugin to warn the developer of the usage of `datetime.utcnow()`.
 - [flake8-datetimez](https://github.com/pjknkda/flake8-datetimez) - A plugin for flake8 to ban the usage of unsafe naive datetime class.
-- [flake8-implicit-str-concat](https://github.com/keisheiled/flake8-implicit-str-concat) - Plugin to encourage correct string literal concatenation.
+- [flake8-implicit-str-concat](https://github.com/flake8-implicit-str-concat/flake8-implicit-str-concat) - Plugin to encourage correct string literal concatenation.
 - [flake8-indent-in-def](https://github.com/cyyc1/flake8-indent-in-def) - Plugin to enforce 8-space indentation in function and class definitions.
 - [flake8-literal](https://github.com/plinss/flake8-literal) - Enforces consistent styling of string literals.
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
@@ -84,7 +84,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 
 Extensions banning specific Python features.
 
-- [flake8-broken-line](https://github.com/sobolevn/flake8-broken-line) - Report line break with backslash (`\`).
+- [flake8-broken-line](https://github.com/wemake-services/flake8-broken-line) - Report line break with backslash (`\`).
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Report debug statements (`pdb`, `ipdb`).
 - [flake8-forbidden-func](https://github.com/tripcher/flake8-forbidden-func) - Forbid some functions in some modules.
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Report string formatting inside logging.
@@ -128,7 +128,7 @@ Extensions for checking comments.
 - [flake8-coding](https://github.com/tk0miya/flake8-coding) - Adds coding magic comment checks (coding:) to flake8.
 - [flake8-comments](https://github.com/orsinium-labs/flake8-comments) - Reports redundant comments.
 - [flake8-copyright](https://github.com/savoirfairelinux/flake8-copyright) - Adds copyright checks to flake8.
-- [flake8-eradicate](https://github.com/sobolevn/flake8-eradicate) - Plugin to find commented out or dead code.
+- [flake8-eradicate](https://github.com/wemake-services/flake8-eradicate) - Plugin to find commented out or dead code.
 - [flake8-executable](https://github.com/xuhdev/flake8-executable) - Plugin for checking executable permissions and shebangs.
 - [flake8-fixme](https://github.com/tommilligan/flake8-fixme) - Check for FIXME, TODO and other temporary developer notes.
 - [flake8-jira-todo-checker](https://github.com/simonstjg/flake8-jira-todo-checker) - Check that every TODO comment has a valid JIRA issue ID next to it.
@@ -177,7 +177,7 @@ Extensions for checking import statements.
 - [flake8-import-style](https://github.com/sfstpala/flake8-import-style) - Plugin to ensure explicit module imports.
 - [flake8-internal-name-import](https://github.com/rows-s/flake8_internal_name_import) - Plugin that reports imports of protected names.
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Extension that helps you write tidier imports.
-- [flake8-type-checking](https://github.com/sondrelg/flake8-type-checking) - Plugin for managing type-checking imports & forward references.
+- [flake8-type-checking](https://github.com/snok/flake8-type-checking) - Plugin lets you know which imports to move in or out of type-checking blocks.
 
 ## Testing
 
@@ -185,7 +185,7 @@ Extensions for testing.
 
 - [flake8-aaa](https://github.com/jamescooke/flake8-aaa) - Lints tests against the Arrange Act Assert pattern.
 - [flake8-assertive](https://github.com/jparise/flake8-assertive) - Unittest assert method checker.
-- [flake8-mock](https://github.com/aleGpereira/flake8-mock) - Provides checking mock non-existent methods.
+- [flake8-mock](https://github.com/zupo/flake8-mock) - Provides checking mock non-existent methods.
 - [flake8-mock-spec](https://github.com/jdkandersson/flake8-mock-spec) - Enforce the use of the spec argument on mocks ensuring that your use of mocks is compliant with the interface of the object being mocked.
 - [flake8-pytest-style](https://github.com/m-burst/flake8-pytest-style) - Checks for common style issues or inconsistencies with pytest-based tests.
 - [flake8-pytest](https://github.com/vikingco/flake8-pytest) - Enforces to use `pytest`-style assertions.
@@ -201,7 +201,6 @@ Extensions for type annotations.
 - [flake8-new-union-types](https://github.com/xome4ok/flake8-new-union-types) - Plugin to enforce new Union/Optional syntax `Foo | Bar | None` defined in [PEP 604][pep604].
 - [flake8-pep585](https://github.com/decorator-factory/flake8-pep585) - Enforce new style annotations from [PEP585](https://peps.python.org/pep-0585/) such as `list[int]` instead of `typing.List[int]`.
 - [flake8-pep604](https://gitlab.com/matthewhughes/flake-pep604) - Forbids use of `typing.Union` (in favour of `|`), per [PEP 604][pep604].
-- [flake8-type-checking](https://github.com/snok/flake8-type-checking) - flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved.
 - [flake8-typing-imports](https://github.com/asottile/flake8-typing-imports) - Plugin which checks that typing imports are properly guarded.
 
 ## Library-specific checks
@@ -221,8 +220,8 @@ Extensions for running flake8 not only on Python files.
 
 - [flake8-markdown](https://github.com/johnfraney/flake8-markdown) - Lints Python code blocks in Markdown files using flake8.
 - [flake8-nb](https://github.com/s-weigand/flake8-nb) - Runs flake8 on `*.ipynb` (jupyter notebook) files.
-- [flake8-pyi](https://github.com/ambv/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
-- [flake8-rst](https://github.com/kataev/flake8-rst) - Checks on code in `*.rst` files or in docstrings.
+- [flake8-pyi](https://github.com/PyCQA/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
+- [flake8-rst](https://github.com/flake8-docs/flake8-rst) - Checks on code in `*.rst` files or in docstrings.
 - [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8.
 
 ## Wrappers
@@ -232,7 +231,7 @@ Wrappers around other tools making it possible to use them with flake8.
 - [flake8-bandit](https://github.com/tylerwince/flake8-bandit) - Wrapper around [bandit](https://github.com/PyCQA/bandit).
 - [flake8-black](https://github.com/peterjc/flake8-black) - Wrapper around [black](https://github.com/psf/black).
 - [flake8-isort](https://github.com/gforcada/flake8-isort) - Wrapper around [isort](https://github.com/PyCQA/isort).
-- [flake8-pylint](https://github.com/orsinium-labs/flake8-pylint) - Wrapper around [pylint](https://github.com/PyCQA/pylint/).
+- [flake8-pylint](https://github.com/orsinium-labs/flake8-pylint) - Wrapper around [pylint](https://github.com/pylint-dev/pylint).
 
 ## Formatters
 
