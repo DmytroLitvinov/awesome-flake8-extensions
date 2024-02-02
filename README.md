@@ -162,6 +162,8 @@ Tools empowering flake8.
 - [nitpick](https://github.com/andreoliwa/nitpick) - Enforce the same lint configuration (flake8, isort, mypy, pylint) across multiple Python projects.
 - [wps-playground](https://github.com/orsinium-labs/wps-playground) - Online playground for wemake-python-styleguide.
 - [yesqa](https://github.com/asottile/yesqa) - A tool to automatically remove unnecessary `# noqa` comments.
+- [flake8-in-file-ignores](https://github.com/bagerard/flake8-in-file-ignores) - Allow in file ignore e.g. `# flake8-in-file-ignores: noqa: E731`.
+
 
 ## Imports
 
