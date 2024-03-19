@@ -87,6 +87,7 @@ Extensions banning specific Python features.
 - [flake8-broken-line](https://github.com/wemake-services/flake8-broken-line) - Report line break with backslash (`\`).
 - [flake8-debugger](https://github.com/JBKahn/flake8-debugger) - Report debug statements (`pdb`, `ipdb`).
 - [flake8-forbidden-func](https://github.com/tripcher/flake8-forbidden-func) - Forbid some functions in some modules.
+- [flake8-logging](https://github.com/adamchainz/flake8-logging) - Reports issues in using the standard library logging module.  
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format) - Report string formatting inside logging.
 - [flake8-match](https://github.com/asottile/flake8-match) - Report `match` statement.
 - [flake8-no-implicit-concat](https://github.com/10sr/flake8-no-implicit-concat) - Report implicit string concatenation.
