@@ -216,6 +216,7 @@ Extensions for linting usage of specific libraries.
 - [flake8-numba](https://github.com/mflova/flake8-numba) - Plugin that facilitates code development with `numba` package.
 - [flake8-scrapy](https://github.com/stummjr/flake8-scrapy) - Plugin to catch common issues on Scrapy spiders.
 - [pandas-vet](https://github.com/deppen8/pandas-vet) - Plugin that provides opinionated linting for pandas code.
+- [TorchFix](https://github.com/pytorch-labs/torchfix) - Plugin for code that uses PyTorch.
 
 ## Integrations
 
