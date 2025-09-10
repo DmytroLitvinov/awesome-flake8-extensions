@@ -32,7 +32,7 @@ Extensions with more than 20 rules inside.
 - [flake8-pie](https://github.com/sbdchd/flake8-pie) - Extension that implements misc. lints.
 - [flake8-simplify](https://github.com/MartinThoma/flake8-simplify) - Plugin that helps you to simplify code.
 - [hacking](https://github.com/openstack/hacking) - Set of flake8 plugins that test and enforce the [OpenStack StyleGuide](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide).
-- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
+- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated Python linter ever.
 - [flake8-tergeo](https://github.com/SAP/flake8-tergeo) - Adds many new rules to improve your code quality and brings a curated and actively maintained list of other plugins including flake8-bugbear.
 
 ## Bugs
@@ -62,7 +62,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-all-not-strings](https://github.com/ggupta2005/flake8-all-not-strings) - Checks that if modules under `__all__` are defined as strings.
 - [flake8-class-attributes-order](https://github.com/best-doctor/flake8-class-attributes-order) - Checks classes attributes order.
 - [flake8-clean-block](https://github.com/cyyc1/flake8-clean-block) - Plugin to enforce a blank line after if/for/while/with/try blocks.
-- [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in python.
+- [flake8-commas](https://github.com/PyCQA/flake8-commas) - Enforcing trailing commas in Python.
 - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - Helps you write better list/set/dict comprehensions.
 - [flake8-datetime-utcnow-plugin](https://github.com/expobrain/flake8-datetime-utcnow-plugin) -  Plugin to warn the developer of the usage of `datetime.utcnow()`.
 - [flake8-datetimez](https://github.com/pjknkda/flake8-datetimez) - A plugin for flake8 to ban the usage of unsafe naive datetime class.
@@ -72,8 +72,9 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-multiline-containers](https://github.com/jsfehler/flake8-multiline-containers) - Plugin to ensure a consistent format for multiline containers.
 - [flake8-newspaper-style](https://github.com/mobility-university/flake8-newspaper-style) - Ensures the function definition goes below its usage.
 - [flake8-obey-import-goat](https://github.com/Melevir/flake8-obey-import-goat) - Allows to forbid specific imports.
+<!--lint ignore awesome-spell-check-->
 - [flake8-picky-parentheses](https://github.com/robsdedude/flake8-picky-parentheses) - Checks for redundant parentheses and alignment of parentheses and brackets.
-- [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in python.
+- [flake8-quotes](https://github.com/zheller/flake8-quotes) - Extension for checking quotes in Python.
 - [flake8-return](https://github.com/afonasev/flake8-return) - Plugin that checks return values.
 - [flake8-scream](https://github.com/MartinThoma/flake8-scream) - Rules which do have known false-positives but might still be useful for a one-time run.
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
@@ -104,7 +105,7 @@ Extensions banning specific Python features.
 
 Extensions for checking names of variables, functions, etc.
 
-- [flake8-builtins](https://github.com/gforcada/flake8-builtins) - Check for python builtins being used as variables or parameters.
+- [flake8-builtins](https://github.com/gforcada/flake8-builtins) - Check for Python builtins being used as variables or parameters.
 - [flake8-functions-names](https://github.com/Melevir/flake8-functions-names) - Validate functions names, decomposition and conformity with annotations.
 - [flake8-test-name](https://github.com/bagerard/flake8-test-name) - Checks that test functions names follow a given convention.
 - [flake8-variables-names](https://github.com/best-doctor/flake8-variables-names) - Extension that helps to make more readable variables names.
@@ -216,7 +217,7 @@ Extensions for linting usage of specific libraries.
 - [flake8-fastapi](https://github.com/Kludex/flake8-fastapi) - Checks FastAPI code against opinionated style rules.
 - [flake8-numba](https://github.com/mflova/flake8-numba) - Plugin that facilitates code development with `numba` package.
 - [flake8-scrapy](https://github.com/stummjr/flake8-scrapy) - Plugin to catch common issues on Scrapy spiders.
-- [pandas-vet](https://github.com/deppen8/pandas-vet) - Plugin that provides opinionated linting for pandas code.
+- [pandas-vet](https://github.com/deppen8/pandas-vet) - Plugin that provides opinionated linting for Pandas code.
 - [TorchFix](https://github.com/pytorch-labs/torchfix) - Plugin for code that uses PyTorch.
 
 ## Integrations
@@ -224,10 +225,10 @@ Extensions for linting usage of specific libraries.
 Extensions for running flake8 not only on Python files.
 
 - [flake8-markdown](https://github.com/johnfraney/flake8-markdown) - Lints Python code blocks in Markdown files using flake8.
-- [flake8-nb](https://github.com/s-weigand/flake8-nb) - Runs flake8 on `*.ipynb` (jupyter notebook) files.
+- [flake8-nb](https://github.com/s-weigand/flake8-nb) - Runs flake8 on `*.ipynb` (Jupyter Notebook) files.
 - [flake8-pyi](https://github.com/PyCQA/flake8-pyi) - Plugin for Flake8 that provides specializations for type hinting stub files.
 - [flake8-rst](https://github.com/flake8-docs/flake8-rst) - Checks on code in `*.rst` files or in docstrings.
-- [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab python linter for notebooks and text files using flake8.
+- [jupyterlab-flake8](https://github.com/mlshapiro/jupyterlab-flake8) - Jupyterlab Python linter for notebooks and text files using flake8.
 
 ## Wrappers
 
