@@ -47,7 +47,7 @@ Extensions for finding possible bugs.
 - [flake8-mutable](https://github.com/ebeweber/flake8-mutable) - Detect usage of mutable objects as default values for arguments.
 - [flake8-qt-tr](https://github.com/ostr00000/flake8-qt-tr) - Detect incorrectly wrapped Qt translation text.
 - [flake8-requirements](https://github.com/Arkq/flake8-requirements) - Package requirements checker.
-- [flake8-secure-coding-standard](https://github.com/Takishima/flake8-secure-coding-standard) - Enforce some secure coding standards for Python. <!-- TODO(@orsinium): move into "All-in-one" when grows -->
+- [flake8-secure-coding-standard](https://github.com/Takishima/flake8-secure-coding-standard) - Enforce some secure coding standards for Python. <!-- TODO(@orsinium): move into 'All-in-one' when grows -->
 - [flake8-slots](https://github.com/python-formate/flake8-slots) - Require `__slots__` to be defined for subclasses of immutable types.
 - [flake8-strftime](https://github.com/python-formate/flake8_strftime) - Checks for use of platform-specific strftime codes.
 - [flake8-string-format](https://github.com/xZise/flake8-string-format) - Check that indexed parameters are used in strings.
@@ -79,7 +79,7 @@ Extensions for finding stylistic issues and enforcing consistent codestyle.
 - [flake8-scream](https://github.com/MartinThoma/flake8-scream) - Rules which do have known false-positives but might still be useful for a one-time run.
 - [flake8-sql](https://github.com/pgjones/flake8-sql) - Plugin that checks SQL code against opinionated style rules.
 - [flake8-strict](https://github.com/smarkets/flake8-strict) - Checks Python code against a set of opinionated style rules.
-- [flake8-too-many](https://github.com/queensferryme/flake8-too-many) - Plugin that prevents you from writing "too many" bad codes.
+- [flake8-too-many](https://github.com/queensferryme/flake8-too-many) - Plugin that prevents you from writing 'too many' bad codes.
 - [tryceratops](https://github.com/guilatrova/tryceratops) - Prevent exception handling antipatterns.
 
 ## Limitations
