@@ -184,6 +184,7 @@ Extensions for checking import statements.
 - [flake8-internal-name-import](https://github.com/rows-s/flake8_internal_name_import) - Plugin that reports imports of protected names.
 - [flake8-tidy-imports](https://github.com/adamchainz/flake8-tidy-imports) - Extension that helps you write tidier imports.
 - [flake8-type-checking](https://github.com/snok/flake8-type-checking) - Plugin lets you know which imports to move in or out of type-checking blocks.
+- [flake8-lazy](https://github.com/henryiii/flake8-lazy) - Detect modules that can be lazy imported in Python 3.15+
 
 ## Testing
 
